@@ -1,0 +1,824 @@
+,ID,Start time,Completion time,Email,Name,Language,AlreadyUse,HasInterest,PossibleFunctions,Other,KnowYourName,Subtitles,Formal/informal,M/F/NB,Age,Gender
+0,1,2022-02-10 17:12:48,2022-02-10 17:15:08,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,Gemme det arbejde man er i gang med,Nej,Ja,Formelt sprog,Kvinde,25-34,Kvinde
+1,1,2022-02-10 17:12:48,2022-02-10 17:15:08,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),Gemme det arbejde man er i gang med,Nej,Ja,Formelt sprog,Kvinde,25-34,Kvinde
+2,1,2022-02-10 17:12:48,2022-02-10 17:15:08,anonymous,,Dansk,Nej,Ja,To-do liste,Gemme det arbejde man er i gang med,Nej,Ja,Formelt sprog,Kvinde,25-34,Kvinde
+3,1,2022-02-10 17:12:48,2022-02-10 17:15:08,anonymous,,Dansk,Nej,Ja,"""Fortæl mig en vittighed""",Gemme det arbejde man er i gang med,Nej,Ja,Formelt sprog,Kvinde,25-34,Kvinde
+4,1,2022-02-10 17:12:48,2022-02-10 17:15:08,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,Gemme det arbejde man er i gang med,Nej,Ja,Formelt sprog,Kvinde,25-34,Kvinde
+5,1,2022-02-10 17:12:48,2022-02-10 17:15:08,anonymous,,Dansk,Nej,Ja,,Gemme det arbejde man er i gang med,Nej,Ja,Formelt sprog,Kvinde,25-34,Kvinde
+6,2,2022-02-10 17:15:01,2022-02-10 17:19:38,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,Har ikke andre forslag,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+7,2,2022-02-10 17:15:01,2022-02-10 17:19:38,anonymous,,Dansk,Nej,Ja,Oplæse indkomne emails,Har ikke andre forslag,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+8,2,2022-02-10 17:15:01,2022-02-10 17:19:38,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),Har ikke andre forslag,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+9,2,2022-02-10 17:15:01,2022-02-10 17:19:38,anonymous,,Dansk,Nej,Ja,Sende emails,Har ikke andre forslag,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+10,2,2022-02-10 17:15:01,2022-02-10 17:19:38,anonymous,,Dansk,Nej,Ja,,Har ikke andre forslag,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+11,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+12,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Informationssøgning på Wikipedia,Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+13,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+14,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Sende emails,Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+15,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+16,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+17,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+18,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+19,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+20,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,Dagens nyheder,Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+21,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+22,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+23,3,2022-02-10 17:22:48,2022-02-10 17:25:34,anonymous,,Dansk,Ja,Ja,,Nej ,Ja,Ja,Familiært sprog,Mand,45-54,Mand
+24,4,2022-02-10 17:22:17,2022-02-10 17:26:16,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),At det er nemt at aktivere ,Nej,Ja,Familiært sprog,Ikke-binær,55-64,Kvinde
+25,4,2022-02-10 17:22:17,2022-02-10 17:26:16,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,At det er nemt at aktivere ,Nej,Ja,Familiært sprog,Ikke-binær,55-64,Kvinde
+26,4,2022-02-10 17:22:17,2022-02-10 17:26:16,anonymous,,Dansk,Nej,Ja,Sende emails,At det er nemt at aktivere ,Nej,Ja,Familiært sprog,Ikke-binær,55-64,Kvinde
+27,4,2022-02-10 17:22:17,2022-02-10 17:26:16,anonymous,,Dansk,Nej,Ja,To-do liste,At det er nemt at aktivere ,Nej,Ja,Familiært sprog,Ikke-binær,55-64,Kvinde
+28,4,2022-02-10 17:22:17,2022-02-10 17:26:16,anonymous,,Dansk,Nej,Ja,,At det er nemt at aktivere ,Nej,Ja,Familiært sprog,Ikke-binær,55-64,Kvinde
+29,5,2022-02-10 17:27:24,2022-02-10 17:29:31,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),Nej,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+30,5,2022-02-10 17:27:24,2022-02-10 17:29:31,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,Nej,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+31,5,2022-02-10 17:27:24,2022-02-10 17:29:31,anonymous,,Dansk,Ja,Ja,To-do liste,Nej,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+32,5,2022-02-10 17:27:24,2022-02-10 17:29:31,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),Nej,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+33,5,2022-02-10 17:27:24,2022-02-10 17:29:31,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),Nej,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+34,5,2022-02-10 17:27:24,2022-02-10 17:29:31,anonymous,,Dansk,Ja,Ja,Dagens nyheder,Nej,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+35,5,2022-02-10 17:27:24,2022-02-10 17:29:31,anonymous,,Dansk,Ja,Ja,,Nej,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+36,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Sende emails,Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+37,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+38,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+39,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,To-do liste,Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+40,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+41,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+42,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+43,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+44,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Dagens nyheder,Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+45,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+46,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+47,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+48,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+49,6,2022-02-10 17:27:37,2022-02-10 17:30:29,anonymous,,Dansk,Ja,Ja,,Vejrudsigten,Ja,Nej,Familiært sprog,Ikke-binær,45-54,Kvinde
+50,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+51,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+52,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+53,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Sende emails,None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+54,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+55,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,To-do liste,None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+56,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+57,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+58,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+59,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,"""Fortæl mig en vittighed""",None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+60,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Åbner programmer på din desktop,None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+61,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+62,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+63,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,Dagens nyheder,None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+64,7,2022-02-10 17:30:36,2022-02-10 17:31:30,anonymous,,English (United States)‎,Ja,Ja,,None,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+65,8,2022-02-10 17:29:13,2022-02-10 17:32:15,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,"Indtale tekst på et sprog, skrive/oversætte til et andet",Ja,Nej,Formelt sprog,Ikke-binær,45-54,Mand
+66,8,2022-02-10 17:29:13,2022-02-10 17:32:15,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),"Indtale tekst på et sprog, skrive/oversætte til et andet",Ja,Nej,Formelt sprog,Ikke-binær,45-54,Mand
+67,8,2022-02-10 17:29:13,2022-02-10 17:32:15,anonymous,,Dansk,Ja,Ja,,"Indtale tekst på et sprog, skrive/oversætte til et andet",Ja,Nej,Formelt sprog,Ikke-binær,45-54,Mand
+68,9,2022-02-10 17:30:13,2022-02-10 17:33:28,anonymous,,Dansk,Ja,Nej,Sende emails,Start div programmer.  Word og browser,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+69,9,2022-02-10 17:30:13,2022-02-10 17:33:28,anonymous,,Dansk,Ja,Nej,Informationssøgning på Google,Start div programmer.  Word og browser,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+70,9,2022-02-10 17:30:13,2022-02-10 17:33:28,anonymous,,Dansk,Ja,Nej,Oversættelse til et valgfrit sprog (Google oversæt),Start div programmer.  Word og browser,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+71,9,2022-02-10 17:30:13,2022-02-10 17:33:28,anonymous,,Dansk,Ja,Nej,Dagens nyheder,Start div programmer.  Word og browser,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+72,9,2022-02-10 17:30:13,2022-02-10 17:33:28,anonymous,,Dansk,Ja,Nej,Åbner programmer på din desktop,Start div programmer.  Word og browser,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+73,9,2022-02-10 17:30:13,2022-02-10 17:33:28,anonymous,,Dansk,Ja,Nej,,Start div programmer.  Word og browser,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+74,10,2022-02-10 17:32:08,2022-02-10 17:34:09,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Ja,Nej,Familiært sprog,Kvinde,55-64,Kvinde
+75,10,2022-02-10 17:32:08,2022-02-10 17:34:09,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Nej,Familiært sprog,Kvinde,55-64,Kvinde
+76,10,2022-02-10 17:32:08,2022-02-10 17:34:09,anonymous,,Dansk,Nej,Ja,To-do liste,,Ja,Nej,Familiært sprog,Kvinde,55-64,Kvinde
+77,10,2022-02-10 17:32:08,2022-02-10 17:34:09,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),,Ja,Nej,Familiært sprog,Kvinde,55-64,Kvinde
+78,10,2022-02-10 17:32:08,2022-02-10 17:34:09,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Ja,Nej,Familiært sprog,Kvinde,55-64,Kvinde
+79,10,2022-02-10 17:32:08,2022-02-10 17:34:09,anonymous,,Dansk,Nej,Ja,,,Ja,Nej,Familiært sprog,Kvinde,55-64,Kvinde
+80,11,2022-02-10 17:38:50,2022-02-10 17:40:48,anonymous,,Dansk,Nej,Nej,Informationssøgning på Google,,Nej,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+81,11,2022-02-10 17:38:50,2022-02-10 17:40:48,anonymous,,Dansk,Nej,Nej,Informationssøgning på Wikipedia,,Nej,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+82,11,2022-02-10 17:38:50,2022-02-10 17:40:48,anonymous,,Dansk,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+83,11,2022-02-10 17:38:50,2022-02-10 17:40:48,anonymous,,Dansk,Nej,Nej,Sende emails,,Nej,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+84,11,2022-02-10 17:38:50,2022-02-10 17:40:48,anonymous,,Dansk,Nej,Nej,Oprette notater / tekst filer som i dikterer,,Nej,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+85,11,2022-02-10 17:38:50,2022-02-10 17:40:48,anonymous,,Dansk,Nej,Nej,To-do liste,,Nej,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+86,11,2022-02-10 17:38:50,2022-02-10 17:40:48,anonymous,,Dansk,Nej,Nej,"""Fortæl mig en vittighed""",,Nej,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+87,11,2022-02-10 17:38:50,2022-02-10 17:40:48,anonymous,,Dansk,Nej,Nej,,,Nej,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+88,12,2022-02-10 17:41:00,2022-02-10 17:42:06,anonymous,,Dansk,Ja,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+89,12,2022-02-10 17:41:00,2022-02-10 17:42:06,anonymous,,Dansk,Ja,Nej,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+90,12,2022-02-10 17:41:00,2022-02-10 17:42:06,anonymous,,Dansk,Ja,Nej,"""Fortæl mig en vittighed""",,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+91,12,2022-02-10 17:41:00,2022-02-10 17:42:06,anonymous,,Dansk,Ja,Nej,Matematiske beregninger,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+92,12,2022-02-10 17:41:00,2022-02-10 17:42:06,anonymous,,Dansk,Ja,Nej,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+93,12,2022-02-10 17:41:00,2022-02-10 17:42:06,anonymous,,Dansk,Ja,Nej,,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+94,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+95,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+96,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+97,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Sende emails,Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+98,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+99,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,To-do liste,Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+100,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+101,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+102,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+103,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Dagens nyheder,Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+104,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,Åbner programmer på din desktop,Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+105,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+106,13,2022-02-10 17:41:43,2022-02-10 17:43:57,anonymous,,English (United States)‎,Ja,Ja,,Analysis of problems in my using the computer…,Ja,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+107,14,2022-02-10 17:56:03,2022-02-10 17:57:41,anonymous,,Dansk,Nej,Nej,Informationssøgning på Google,,Ja,Nej,Familiært sprog,Mand,45-54,Kvinde
+108,14,2022-02-10 17:56:03,2022-02-10 17:57:41,anonymous,,Dansk,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Nej,Familiært sprog,Mand,45-54,Kvinde
+109,14,2022-02-10 17:56:03,2022-02-10 17:57:41,anonymous,,Dansk,Nej,Nej,,,Ja,Nej,Familiært sprog,Mand,45-54,Kvinde
+110,15,2022-02-10 17:52:54,2022-02-10 17:57:49,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,"Oplæse kantinemenuen i Skolegade, En stemme der kan oplæse hvornår næste møde er, Lave kalender booking i Outlook kalender, ",Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+111,15,2022-02-10 17:52:54,2022-02-10 17:57:49,anonymous,,Dansk,Nej,Ja,Sende emails,"Oplæse kantinemenuen i Skolegade, En stemme der kan oplæse hvornår næste møde er, Lave kalender booking i Outlook kalender, ",Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+112,15,2022-02-10 17:52:54,2022-02-10 17:57:49,anonymous,,Dansk,Nej,Ja,Oplæse indkomne emails,"Oplæse kantinemenuen i Skolegade, En stemme der kan oplæse hvornår næste møde er, Lave kalender booking i Outlook kalender, ",Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+113,15,2022-02-10 17:52:54,2022-02-10 17:57:49,anonymous,,Dansk,Nej,Ja,To-do liste,"Oplæse kantinemenuen i Skolegade, En stemme der kan oplæse hvornår næste møde er, Lave kalender booking i Outlook kalender, ",Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+114,15,2022-02-10 17:52:54,2022-02-10 17:57:49,anonymous,,Dansk,Nej,Ja,Dagens nyheder,"Oplæse kantinemenuen i Skolegade, En stemme der kan oplæse hvornår næste møde er, Lave kalender booking i Outlook kalender, ",Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+115,15,2022-02-10 17:52:54,2022-02-10 17:57:49,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,"Oplæse kantinemenuen i Skolegade, En stemme der kan oplæse hvornår næste møde er, Lave kalender booking i Outlook kalender, ",Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+116,15,2022-02-10 17:52:54,2022-02-10 17:57:49,anonymous,,Dansk,Nej,Ja,"""Fortæl mig en vittighed""","Oplæse kantinemenuen i Skolegade, En stemme der kan oplæse hvornår næste møde er, Lave kalender booking i Outlook kalender, ",Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+117,15,2022-02-10 17:52:54,2022-02-10 17:57:49,anonymous,,Dansk,Nej,Ja,,"Oplæse kantinemenuen i Skolegade, En stemme der kan oplæse hvornår næste møde er, Lave kalender booking i Outlook kalender, ",Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+118,16,2022-02-10 17:56:08,2022-02-10 17:58:21,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+119,16,2022-02-10 17:56:08,2022-02-10 17:58:21,anonymous,,Dansk,Ja,Ja,Sende emails,,Nej,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+120,16,2022-02-10 17:56:08,2022-02-10 17:58:21,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Nej,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+121,16,2022-02-10 17:56:08,2022-02-10 17:58:21,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+122,16,2022-02-10 17:56:08,2022-02-10 17:58:21,anonymous,,Dansk,Ja,Ja,To-do liste,,Nej,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+123,16,2022-02-10 17:56:08,2022-02-10 17:58:21,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+124,16,2022-02-10 17:56:08,2022-02-10 17:58:21,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Nej,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+125,16,2022-02-10 17:56:08,2022-02-10 17:58:21,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+126,16,2022-02-10 17:56:08,2022-02-10 17:58:21,anonymous,,Dansk,Ja,Ja,,,Nej,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+127,17,2022-02-10 18:08:13,2022-02-10 18:10:46,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+128,17,2022-02-10 18:08:13,2022-02-10 18:10:46,anonymous,,Dansk,Ja,Ja,To-do liste,,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+129,17,2022-02-10 18:08:13,2022-02-10 18:10:46,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+130,17,2022-02-10 18:08:13,2022-02-10 18:10:46,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+131,17,2022-02-10 18:08:13,2022-02-10 18:10:46,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+132,17,2022-02-10 18:08:13,2022-02-10 18:10:46,anonymous,,Dansk,Ja,Ja,,,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+133,18,2022-02-10 18:09:08,2022-02-10 18:12:38,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Nej,Formelt sprog,Ikke-binær,45-54,Kvinde
+134,18,2022-02-10 18:09:08,2022-02-10 18:12:38,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Nej,Formelt sprog,Ikke-binær,45-54,Kvinde
+135,18,2022-02-10 18:09:08,2022-02-10 18:12:38,anonymous,,Dansk,Ja,Ja,Sende emails,,Ja,Nej,Formelt sprog,Ikke-binær,45-54,Kvinde
+136,18,2022-02-10 18:09:08,2022-02-10 18:12:38,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Ja,Nej,Formelt sprog,Ikke-binær,45-54,Kvinde
+137,18,2022-02-10 18:09:08,2022-02-10 18:12:38,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Ja,Nej,Formelt sprog,Ikke-binær,45-54,Kvinde
+138,18,2022-02-10 18:09:08,2022-02-10 18:12:38,anonymous,,Dansk,Ja,Ja,,,Ja,Nej,Formelt sprog,Ikke-binær,45-54,Kvinde
+139,19,2022-02-10 18:14:30,2022-02-10 18:19:20,anonymous,,Dansk,Nej,Nej,Dagens nyheder,,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+140,19,2022-02-10 18:14:30,2022-02-10 18:19:20,anonymous,,Dansk,Nej,Nej,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+141,19,2022-02-10 18:14:30,2022-02-10 18:19:20,anonymous,,Dansk,Nej,Nej,,,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+142,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,Sende emails,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+143,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,Oplæse indkomne emails,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+144,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+145,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,To-do liste,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+146,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+147,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+148,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+149,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,Dagens nyheder,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+150,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,Åbner programmer på din desktop,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+151,20,2022-02-10 18:25:07,2022-02-10 18:26:23,anonymous,,English (United States)‎,Nej,Ja,,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+152,21,2022-02-10 18:28:43,2022-02-10 18:30:25,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+153,21,2022-02-10 18:28:43,2022-02-10 18:30:25,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,,Nej,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+154,21,2022-02-10 18:28:43,2022-02-10 18:30:25,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+155,21,2022-02-10 18:28:43,2022-02-10 18:30:25,anonymous,,Dansk,Nej,Ja,To-do liste,,Nej,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+156,21,2022-02-10 18:28:43,2022-02-10 18:30:25,anonymous,,Dansk,Nej,Ja,"""Fortæl mig en vittighed""",,Nej,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+157,21,2022-02-10 18:28:43,2022-02-10 18:30:25,anonymous,,Dansk,Nej,Ja,Matematiske beregninger,,Nej,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+158,21,2022-02-10 18:28:43,2022-02-10 18:30:25,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+159,21,2022-02-10 18:28:43,2022-02-10 18:30:25,anonymous,,Dansk,Nej,Ja,,,Nej,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+160,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+161,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+162,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+163,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+164,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+165,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+166,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+167,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+168,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,Dagens nyheder,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+169,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+170,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+171,22,2022-02-10 18:47:33,2022-02-10 18:48:21,anonymous,,English (United States)‎,Ja,Ja,,,Ja,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+172,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+173,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+174,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+175,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Sende emails,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+176,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Oplæse indkomne emails,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+177,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+178,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,To-do liste,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+179,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+180,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+181,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+182,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,"""Fortæl mig en vittighed""",Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+183,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Dagens nyheder,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+184,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Åbner programmer på din desktop,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+185,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+186,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+187,23,2022-02-10 21:18:19,2022-02-10 21:22:32,anonymous,,English (United States)‎,Ja,Ja,,Ability to control a computer on a more finite level. e.g. shut down pc. call someone using skype by name. ,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Mand
+188,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,"test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+189,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,Informationssøgning på Wikipedia,"test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+190,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),"test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+191,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,Sende emails,"test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+192,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,To-do liste,"test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+193,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),"test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+194,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""","test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+195,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,"test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+196,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)","test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+197,24,2022-02-10 21:00:35,2022-02-10 21:23:02,anonymous,,Dansk,Ja,Ja,,"test test - kunne fortælle mig det ville være sundt at rejse mig fra computeren og gå lidt rundt, hver gang jeg har siddet en time og gloet ind i den ;)",Ja,Ja,Familiært sprog,Mand,35-44,Kvinde
+198,25,2022-02-10 21:26:55,2022-02-10 21:28:47,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Kvinde
+199,25,2022-02-10 21:26:55,2022-02-10 21:28:47,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Kvinde
+200,25,2022-02-10 21:26:55,2022-02-10 21:28:47,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Kvinde
+201,25,2022-02-10 21:26:55,2022-02-10 21:28:47,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Kvinde
+202,25,2022-02-10 21:26:55,2022-02-10 21:28:47,anonymous,,Dansk,Ja,Ja,To-do liste,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Kvinde
+203,25,2022-02-10 21:26:55,2022-02-10 21:28:47,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Kvinde
+204,25,2022-02-10 21:26:55,2022-02-10 21:28:47,anonymous,,Dansk,Ja,Ja,,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Kvinde
+205,26,2022-02-10 22:58:14,2022-02-10 23:02:47,anonymous,,Dansk,Nej,Nej,"Enhedskonvertering (valuta, vægt, osv.)","Jeg kunne ikke indsende svar uden at vælge minimum 1 svar på spørgsmål 3, der mangler en ""ingen af de nævnte"" boks. Grundet dette satte jeg kryds i nederste boks uden interesse for det. ",Nej,Nej,Familiært sprog,Ikke-binær,25-34,Andet
+206,26,2022-02-10 22:58:14,2022-02-10 23:02:47,anonymous,,Dansk,Nej,Nej,,"Jeg kunne ikke indsende svar uden at vælge minimum 1 svar på spørgsmål 3, der mangler en ""ingen af de nævnte"" boks. Grundet dette satte jeg kryds i nederste boks uden interesse for det. ",Nej,Nej,Familiært sprog,Ikke-binær,25-34,Andet
+207,27,2022-02-11 06:28:21,2022-02-11 06:30:33,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Nej,Formelt sprog,Kvinde,55-64,Mand
+208,27,2022-02-11 06:28:21,2022-02-11 06:30:33,anonymous,,Dansk,Nej,Ja,Oplæse indkomne emails,,Nej,Nej,Formelt sprog,Kvinde,55-64,Mand
+209,27,2022-02-11 06:28:21,2022-02-11 06:30:33,anonymous,,Dansk,Nej,Ja,Sende emails,,Nej,Nej,Formelt sprog,Kvinde,55-64,Mand
+210,27,2022-02-11 06:28:21,2022-02-11 06:30:33,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,,Nej,Nej,Formelt sprog,Kvinde,55-64,Mand
+211,27,2022-02-11 06:28:21,2022-02-11 06:30:33,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Nej,Formelt sprog,Kvinde,55-64,Mand
+212,27,2022-02-11 06:28:21,2022-02-11 06:30:33,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Formelt sprog,Kvinde,55-64,Mand
+213,27,2022-02-11 06:28:21,2022-02-11 06:30:33,anonymous,,Dansk,Nej,Ja,,,Nej,Nej,Formelt sprog,Kvinde,55-64,Mand
+214,28,2022-02-11 06:32:28,2022-02-11 06:36:03,anonymous,,Dansk,Nej,Nej,Informationssøgning på Google,,Nej,Nej,Formelt sprog,Ikke-binær,55-64,Mand
+215,28,2022-02-11 06:32:28,2022-02-11 06:36:03,anonymous,,Dansk,Nej,Nej,,,Nej,Nej,Formelt sprog,Ikke-binær,55-64,Mand
+216,29,2022-02-11 07:13:21,2022-02-11 07:16:18,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+217,29,2022-02-11 07:13:21,2022-02-11 07:16:18,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+218,29,2022-02-11 07:13:21,2022-02-11 07:16:18,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+219,29,2022-02-11 07:13:21,2022-02-11 07:16:18,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+220,29,2022-02-11 07:13:21,2022-02-11 07:16:18,anonymous,,Dansk,Nej,Ja,To-do liste,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+221,29,2022-02-11 07:13:21,2022-02-11 07:16:18,anonymous,,Dansk,Nej,Ja,Dagens nyheder,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+222,29,2022-02-11 07:13:21,2022-02-11 07:16:18,anonymous,,Dansk,Nej,Ja,,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Mand
+223,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+224,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,Informationssøgning på Wikipedia,,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+225,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+226,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,To-do liste,,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+227,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+228,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+229,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+230,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+231,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+232,30,2022-02-11 07:27:08,2022-02-11 07:28:51,anonymous,,Dansk,Ja,Ja,,,Nej,Nej,Formelt sprog,Ikke-binær,35-44,Mand
+233,31,2022-02-11 07:26:44,2022-02-11 07:28:57,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Nej,Nej,Formelt sprog,Ikke-binær,55-64,Kvinde
+234,31,2022-02-11 07:26:44,2022-02-11 07:28:57,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Formelt sprog,Ikke-binær,55-64,Kvinde
+235,31,2022-02-11 07:26:44,2022-02-11 07:28:57,anonymous,,Dansk,Ja,Ja,Sende emails,,Nej,Nej,Formelt sprog,Ikke-binær,55-64,Kvinde
+236,31,2022-02-11 07:26:44,2022-02-11 07:28:57,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Nej,Nej,Formelt sprog,Ikke-binær,55-64,Kvinde
+237,31,2022-02-11 07:26:44,2022-02-11 07:28:57,anonymous,,Dansk,Ja,Ja,To-do liste,,Nej,Nej,Formelt sprog,Ikke-binær,55-64,Kvinde
+238,31,2022-02-11 07:26:44,2022-02-11 07:28:57,anonymous,,Dansk,Ja,Ja,,,Nej,Nej,Formelt sprog,Ikke-binær,55-64,Kvinde
+239,32,2022-02-11 07:48:52,2022-02-11 08:01:05,anonymous,,Dansk,Nej,Nej,Matematiske beregninger,%,Nej,Ja,Familiært sprog,Kvinde,25-34,Mand
+240,32,2022-02-11 07:48:52,2022-02-11 08:01:05,anonymous,,Dansk,Nej,Nej,Åbner programmer på din desktop,%,Nej,Ja,Familiært sprog,Kvinde,25-34,Mand
+241,32,2022-02-11 07:48:52,2022-02-11 08:01:05,anonymous,,Dansk,Nej,Nej,"Enhedskonvertering (valuta, vægt, osv.)",%,Nej,Ja,Familiært sprog,Kvinde,25-34,Mand
+242,32,2022-02-11 07:48:52,2022-02-11 08:01:05,anonymous,,Dansk,Nej,Nej,,%,Nej,Ja,Familiært sprog,Kvinde,25-34,Mand
+243,33,2022-02-11 08:11:48,2022-02-11 08:13:36,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Formelt sprog,Mand,35-44,Kvinde
+244,33,2022-02-11 08:11:48,2022-02-11 08:13:36,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Nej,Ja,Formelt sprog,Mand,35-44,Kvinde
+245,33,2022-02-11 08:11:48,2022-02-11 08:13:36,anonymous,,Dansk,Nej,Ja,,,Nej,Ja,Formelt sprog,Mand,35-44,Kvinde
+246,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,"Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+247,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),"Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+248,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,Sende emails,"Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+249,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,To-do liste,"Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+250,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),"Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+251,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,"""Fortæl mig en vittighed""","Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+252,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,Dagens nyheder,"Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+253,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,"Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+254,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)","Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+255,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,"Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+256,34,2022-02-11 07:51:46,2022-02-11 08:16:51,anonymous,,Dansk,Nej,Ja,,"Vedr. undertekster (nedenfor): valgfrihed (hvis man nogle få gange ikke kan høre/forstå, hvad der bliver sagt, men ikke gider at have det slået til hele tiden)",Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+257,35,2022-02-11 08:14:38,2022-02-11 08:17:18,anonymous,,Dansk,Nej,Nej,Matematiske beregninger,,Nej,Ja,Formelt sprog,Ikke-binær,25-34,Kvinde
+258,35,2022-02-11 08:14:38,2022-02-11 08:17:18,anonymous,,Dansk,Nej,Nej,,,Nej,Ja,Formelt sprog,Ikke-binær,25-34,Kvinde
+259,36,2022-02-11 08:15:17,2022-02-11 08:17:36,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Nej,Formelt sprog,Kvinde,55-64,Kvinde
+260,36,2022-02-11 08:15:17,2022-02-11 08:17:36,anonymous,,Dansk,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Nej,Formelt sprog,Kvinde,55-64,Kvinde
+261,36,2022-02-11 08:15:17,2022-02-11 08:17:36,anonymous,,Dansk,Ja,Ja,Sende emails,,Ja,Nej,Formelt sprog,Kvinde,55-64,Kvinde
+262,36,2022-02-11 08:15:17,2022-02-11 08:17:36,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Nej,Formelt sprog,Kvinde,55-64,Kvinde
+263,36,2022-02-11 08:15:17,2022-02-11 08:17:36,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Nej,Formelt sprog,Kvinde,55-64,Kvinde
+264,36,2022-02-11 08:15:17,2022-02-11 08:17:36,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Ja,Nej,Formelt sprog,Kvinde,55-64,Kvinde
+265,36,2022-02-11 08:15:17,2022-02-11 08:17:36,anonymous,,Dansk,Ja,Ja,,,Ja,Nej,Formelt sprog,Kvinde,55-64,Kvinde
+266,37,2022-02-11 08:20:53,2022-02-11 08:26:25,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+267,37,2022-02-11 08:20:53,2022-02-11 08:26:25,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+268,37,2022-02-11 08:20:53,2022-02-11 08:26:25,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+269,37,2022-02-11 08:20:53,2022-02-11 08:26:25,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+270,37,2022-02-11 08:20:53,2022-02-11 08:26:25,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+271,37,2022-02-11 08:20:53,2022-02-11 08:26:25,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+272,37,2022-02-11 08:20:53,2022-02-11 08:26:25,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+273,37,2022-02-11 08:20:53,2022-02-11 08:26:25,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+274,37,2022-02-11 08:20:53,2022-02-11 08:26:25,anonymous,,English (United States)‎,Ja,Ja,,,Nej,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+275,38,2022-02-11 08:29:49,2022-02-11 08:31:44,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+276,38,2022-02-11 08:29:49,2022-02-11 08:31:44,anonymous,,Dansk,Ja,Ja,To-do liste,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+277,38,2022-02-11 08:29:49,2022-02-11 08:31:44,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+278,38,2022-02-11 08:29:49,2022-02-11 08:31:44,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+279,38,2022-02-11 08:29:49,2022-02-11 08:31:44,anonymous,,Dansk,Ja,Ja,,,Ja,Ja,Familiært sprog,Mand,25-34,Kvinde
+280,39,2022-02-11 08:53:33,2022-02-11 08:54:41,anonymous,,English (United States)‎,Nej,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Formelt sprog,Ikke-binær,25-34,Mand
+281,39,2022-02-11 08:53:33,2022-02-11 08:54:41,anonymous,,English (United States)‎,Nej,Ja,Vækkeur (præcis klokkeslæt),,Nej,Ja,Formelt sprog,Ikke-binær,25-34,Mand
+282,39,2022-02-11 08:53:33,2022-02-11 08:54:41,anonymous,,English (United States)‎,Nej,Ja,"""Fortæl mig en vittighed""",,Nej,Ja,Formelt sprog,Ikke-binær,25-34,Mand
+283,39,2022-02-11 08:53:33,2022-02-11 08:54:41,anonymous,,English (United States)‎,Nej,Ja,,,Nej,Ja,Formelt sprog,Ikke-binær,25-34,Mand
+284,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+285,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+286,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+287,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+288,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,To-do liste,,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+289,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+290,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,Sende emails,,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+291,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+292,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+293,40,2022-02-11 09:16:41,2022-02-11 09:18:47,anonymous,,Dansk,Nej,Ja,,,Ja,Ja,Familiært sprog,Kvinde,35-44,Kvinde
+294,41,2022-02-11 09:16:50,2022-02-11 09:19:04,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+295,41,2022-02-11 09:16:50,2022-02-11 09:19:04,anonymous,,Dansk,Nej,Ja,Sende emails,,Ja,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+296,41,2022-02-11 09:16:50,2022-02-11 09:19:04,anonymous,,Dansk,Nej,Ja,To-do liste,,Ja,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+297,41,2022-02-11 09:16:50,2022-02-11 09:19:04,anonymous,,Dansk,Nej,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+298,41,2022-02-11 09:16:50,2022-02-11 09:19:04,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Ja,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+299,41,2022-02-11 09:16:50,2022-02-11 09:19:04,anonymous,,Dansk,Nej,Ja,Matematiske beregninger,,Ja,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+300,41,2022-02-11 09:16:50,2022-02-11 09:19:04,anonymous,,Dansk,Nej,Ja,,,Ja,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+301,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,Informationssøgning på Wikipedia,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+302,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+303,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+304,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+305,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,To-do liste,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+306,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+307,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,Åbner programmer på din desktop,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+308,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,Matematiske beregninger,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+309,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+310,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,Timer (om X minutter),,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+311,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,Vækkeur (præcis klokkeslæt),,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+312,42,2022-02-11 09:22:55,2022-02-11 09:26:38,anonymous,,English (United States)‎,Nej,Ja,,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+313,43,2022-02-11 09:34:03,2022-02-11 09:36:41,anonymous,,Dansk,Nej,Ja,To-do liste,,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+314,43,2022-02-11 09:34:03,2022-02-11 09:36:41,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+315,43,2022-02-11 09:34:03,2022-02-11 09:36:41,anonymous,,Dansk,Nej,Ja,Timer (om X minutter),,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+316,43,2022-02-11 09:34:03,2022-02-11 09:36:41,anonymous,,Dansk,Nej,Ja,,,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+317,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+318,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+319,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+320,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,Oplæse indkomne emails,,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+321,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+322,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+323,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+324,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+325,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,"""Fortæl mig en vittighed""",,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+326,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+327,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+328,44,2022-02-11 09:52:24,2022-02-11 09:53:50,anonymous,,English (United States)‎,Ja,Ja,,,Ja,Nej,Familiært sprog,Kvinde,18-24,Mand
+329,45,2022-02-11 10:02:25,2022-02-11 10:07:15,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+330,45,2022-02-11 10:02:25,2022-02-11 10:07:15,anonymous,,Dansk,Nej,Ja,Sende emails,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+331,45,2022-02-11 10:02:25,2022-02-11 10:07:15,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+332,45,2022-02-11 10:02:25,2022-02-11 10:07:15,anonymous,,Dansk,Nej,Ja,To-do liste,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+333,45,2022-02-11 10:02:25,2022-02-11 10:07:15,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+334,45,2022-02-11 10:02:25,2022-02-11 10:07:15,anonymous,,Dansk,Nej,Ja,Timer (om X minutter),,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+335,45,2022-02-11 10:02:25,2022-02-11 10:07:15,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+336,45,2022-02-11 10:02:25,2022-02-11 10:07:15,anonymous,,Dansk,Nej,Ja,,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+337,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+338,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+339,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+340,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+341,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+342,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+343,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+344,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Åbner programmer på din desktop,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+345,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+346,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+347,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Sende emails,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+348,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Oplæse indkomne emails,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+349,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+350,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,"""Fortæl mig en vittighed""",,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+351,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,Dagens nyheder,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+352,46,2022-02-11 10:17:32,2022-02-11 10:28:32,anonymous,,English (United States)‎,Ja,Ja,,,Ja,Nej,Formelt sprog,Kvinde,35-44,Mand
+353,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+354,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+355,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Sende emails,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+356,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+357,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+358,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,To-do liste,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+359,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+360,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+361,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+362,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+363,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+364,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+365,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+366,47,2022-02-11 10:50:54,2022-02-11 10:52:52,anonymous,,Dansk,Ja,Ja,,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+367,48,2022-02-11 11:15:35,2022-02-11 11:17:38,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Nej,Formelt sprog,Kvinde,45-54,Kvinde
+368,48,2022-02-11 11:15:35,2022-02-11 11:17:38,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Formelt sprog,Kvinde,45-54,Kvinde
+369,48,2022-02-11 11:15:35,2022-02-11 11:17:38,anonymous,,Dansk,Nej,Ja,Oplæse indkomne emails,,Nej,Nej,Formelt sprog,Kvinde,45-54,Kvinde
+370,48,2022-02-11 11:15:35,2022-02-11 11:17:38,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Nej,Formelt sprog,Kvinde,45-54,Kvinde
+371,48,2022-02-11 11:15:35,2022-02-11 11:17:38,anonymous,,Dansk,Nej,Ja,Matematiske beregninger,,Nej,Nej,Formelt sprog,Kvinde,45-54,Kvinde
+372,48,2022-02-11 11:15:35,2022-02-11 11:17:38,anonymous,,Dansk,Nej,Ja,,,Nej,Nej,Formelt sprog,Kvinde,45-54,Kvinde
+373,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+374,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+375,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+376,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Sende emails,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+377,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Oplæse indkomne emails,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+378,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+379,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+380,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+381,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+382,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+383,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+384,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Dagens nyheder,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+385,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Åbner programmer på din desktop,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+386,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+387,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+388,49,2022-02-11 11:24:55,2022-02-11 11:26:05,anonymous,,English (United States)‎,Ja,Ja,,,Ja,Ja,Familiært sprog,Mand,18-24,Mand
+389,50,2022-02-11 11:39:11,2022-02-11 11:42:32,anonymous,,Dansk,Nej,Nej,Timer (om X minutter),,Ja,Nej,Familiært sprog,Mand,45-54,Mand
+390,50,2022-02-11 11:39:11,2022-02-11 11:42:32,anonymous,,Dansk,Nej,Nej,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Nej,Familiært sprog,Mand,45-54,Mand
+391,50,2022-02-11 11:39:11,2022-02-11 11:42:32,anonymous,,Dansk,Nej,Nej,Matematiske beregninger,,Ja,Nej,Familiært sprog,Mand,45-54,Mand
+392,50,2022-02-11 11:39:11,2022-02-11 11:42:32,anonymous,,Dansk,Nej,Nej,,,Ja,Nej,Familiært sprog,Mand,45-54,Mand
+393,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+394,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+395,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+396,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Sende emails,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+397,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Oplæse indkomne emails,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+398,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+399,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,To-do liste,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+400,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+401,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Vækkeur (præcis klokkeslæt),søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+402,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Timer (om X minutter),søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+403,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,"""Fortæl mig en vittighed""",søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+404,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Dagens nyheder,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+405,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+406,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,Matematiske beregninger,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+407,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+408,51,2022-02-11 11:55:22,2022-02-11 11:58:00,anonymous,,Dansk,Nej,Ja,,søgning i youtube,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+409,52,2022-02-11 12:23:01,2022-02-11 12:25:03,anonymous,,Dansk,Nej,Nej,Vækkeur (præcis klokkeslæt),,Nej,Nej,Familiært sprog,Kvinde,18-24,Kvinde
+410,52,2022-02-11 12:23:01,2022-02-11 12:25:03,anonymous,,Dansk,Nej,Nej,Matematiske beregninger,,Nej,Nej,Familiært sprog,Kvinde,18-24,Kvinde
+411,52,2022-02-11 12:23:01,2022-02-11 12:25:03,anonymous,,Dansk,Nej,Nej,,,Nej,Nej,Familiært sprog,Kvinde,18-24,Kvinde
+412,53,2022-02-11 12:24:18,2022-02-11 12:25:31,anonymous,,Dansk,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Formelt sprog,Kvinde,55-64,Kvinde
+413,53,2022-02-11 12:24:18,2022-02-11 12:25:31,anonymous,,Dansk,Nej,Nej,Dagens nyheder,,Nej,Ja,Formelt sprog,Kvinde,55-64,Kvinde
+414,53,2022-02-11 12:24:18,2022-02-11 12:25:31,anonymous,,Dansk,Nej,Nej,,,Nej,Ja,Formelt sprog,Kvinde,55-64,Kvinde
+415,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+416,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+417,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+418,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+419,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+420,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+421,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+422,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+423,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+424,54,2022-02-11 12:23:19,2022-02-11 12:25:38,anonymous,,Dansk,Ja,Ja,,,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+425,55,2022-02-11 12:22:50,2022-02-11 12:26:30,anonymous,,Dansk,Nej,Nej,Oplæse indkomne emails,,Nej,Nej,Formelt sprog,Mand,18-24,Kvinde
+426,55,2022-02-11 12:22:50,2022-02-11 12:26:30,anonymous,,Dansk,Nej,Nej,To-do liste,,Nej,Nej,Formelt sprog,Mand,18-24,Kvinde
+427,55,2022-02-11 12:22:50,2022-02-11 12:26:30,anonymous,,Dansk,Nej,Nej,Vækkeur (præcis klokkeslæt),,Nej,Nej,Formelt sprog,Mand,18-24,Kvinde
+428,55,2022-02-11 12:22:50,2022-02-11 12:26:30,anonymous,,Dansk,Nej,Nej,Dagens nyheder,,Nej,Nej,Formelt sprog,Mand,18-24,Kvinde
+429,55,2022-02-11 12:22:50,2022-02-11 12:26:30,anonymous,,Dansk,Nej,Nej,,,Nej,Nej,Formelt sprog,Mand,18-24,Kvinde
+430,56,2022-02-11 12:25:40,2022-02-11 12:27:20,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Mand
+431,56,2022-02-11 12:25:40,2022-02-11 12:27:20,anonymous,,Dansk,Nej,Ja,To-do liste,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Mand
+432,56,2022-02-11 12:25:40,2022-02-11 12:27:20,anonymous,,Dansk,Nej,Ja,,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Mand
+433,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+434,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+435,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+436,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Sende emails,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+437,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+438,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+439,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,To-do liste,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+440,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+441,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+442,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+443,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+444,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+445,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+446,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+447,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+448,57,2022-02-11 12:53:39,2022-02-11 12:55:11,anonymous,,Dansk,Ja,Ja,,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+449,58,2022-02-11 12:59:56,2022-02-11 13:01:11,anonymous,,Dansk,Ja,Nej,Matematiske beregninger,,Nej,Ja,Familiært sprog,Kvinde,18-24,Kvinde
+450,58,2022-02-11 12:59:56,2022-02-11 13:01:11,anonymous,,Dansk,Ja,Nej,To-do liste,,Nej,Ja,Familiært sprog,Kvinde,18-24,Kvinde
+451,58,2022-02-11 12:59:56,2022-02-11 13:01:11,anonymous,,Dansk,Ja,Nej,Oplæse indkomne emails,,Nej,Ja,Familiært sprog,Kvinde,18-24,Kvinde
+452,58,2022-02-11 12:59:56,2022-02-11 13:01:11,anonymous,,Dansk,Ja,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Kvinde,18-24,Kvinde
+453,58,2022-02-11 12:59:56,2022-02-11 13:01:11,anonymous,,Dansk,Ja,Nej,Påmindelser (du vælger hvornår),,Nej,Ja,Familiært sprog,Kvinde,18-24,Kvinde
+454,58,2022-02-11 12:59:56,2022-02-11 13:01:11,anonymous,,Dansk,Ja,Nej,Dagens nyheder,,Nej,Ja,Familiært sprog,Kvinde,18-24,Kvinde
+455,58,2022-02-11 12:59:56,2022-02-11 13:01:11,anonymous,,Dansk,Ja,Nej,,,Nej,Ja,Familiært sprog,Kvinde,18-24,Kvinde
+456,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+457,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+458,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+459,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Sende emails,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+460,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,To-do liste,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+461,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+462,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+463,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+464,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+465,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+466,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+467,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+468,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+469,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+470,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+471,59,2022-02-11 13:07:51,2022-02-11 13:08:50,anonymous,,Dansk,Ja,Ja,,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+472,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,Informationssøgning på Google,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+473,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,Informationssøgning på Wikipedia,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+474,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+475,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,Oplæse indkomne emails,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+476,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,Påmindelser (du vælger hvornår),,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+477,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,Vækkeur (præcis klokkeslæt),,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+478,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,Timer (om X minutter),,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+479,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,"""Fortæl mig en vittighed""",,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+480,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,Åbner programmer på din desktop,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+481,60,2022-02-11 13:08:48,2022-02-11 13:10:32,anonymous,,English (United States)‎,Nej,Nej,,,Ja,Ja,Formelt sprog,Kvinde,18-24,Mand
+482,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+483,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+484,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+485,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,To-do liste,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+486,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+487,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+488,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+489,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+490,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+491,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+492,61,2022-02-11 13:19:26,2022-02-11 13:22:48,anonymous,,Dansk,Ja,Ja,,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Kvinde
+493,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+494,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+495,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+496,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Sende emails,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+497,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Oplæse indkomne emails,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+498,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+499,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,To-do liste,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+500,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+501,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+502,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Timer (om X minutter),,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+503,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+504,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Dagens nyheder,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+505,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+506,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,Matematiske beregninger,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+507,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+508,62,2022-02-11 14:52:15,2022-02-11 14:53:33,anonymous,,Dansk,Nej,Ja,,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Kvinde
+509,63,2022-02-11 15:28:48,2022-02-11 15:30:25,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+510,63,2022-02-11 15:28:48,2022-02-11 15:30:25,anonymous,,Dansk,Nej,Ja,To-do liste,,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+511,63,2022-02-11 15:28:48,2022-02-11 15:30:25,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+512,63,2022-02-11 15:28:48,2022-02-11 15:30:25,anonymous,,Dansk,Nej,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+513,63,2022-02-11 15:28:48,2022-02-11 15:30:25,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+514,63,2022-02-11 15:28:48,2022-02-11 15:30:25,anonymous,,Dansk,Nej,Ja,Matematiske beregninger,,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+515,63,2022-02-11 15:28:48,2022-02-11 15:30:25,anonymous,,Dansk,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+516,63,2022-02-11 15:28:48,2022-02-11 15:30:25,anonymous,,Dansk,Nej,Ja,,,Ja,Ja,Familiært sprog,Kvinde,25-34,Mand
+517,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+518,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,Informationssøgning på Wikipedia,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+519,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,Oplæse indkomne emails,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+520,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,To-do liste,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+521,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+522,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,Timer (om X minutter),,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+523,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,Matematiske beregninger,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+524,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+525,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,Dagens nyheder,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+526,64,2022-02-11 15:34:36,2022-02-11 15:35:41,anonymous,,English (United States)‎,Nej,Ja,,,Nej,Ja,Familiært sprog,Ikke-binær,25-34,Mand
+527,65,2022-02-11 16:44:59,2022-02-11 16:47:39,anonymous,,Dansk,Nej,Nej,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+528,65,2022-02-11 16:44:59,2022-02-11 16:47:39,anonymous,,Dansk,Nej,Nej,Dagens nyheder,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+529,65,2022-02-11 16:44:59,2022-02-11 16:47:39,anonymous,,Dansk,Nej,Nej,,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+530,66,2022-02-11 17:03:01,2022-02-11 17:04:28,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Mand,18-24,Mand
+531,66,2022-02-11 17:03:01,2022-02-11 17:04:28,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Mand,18-24,Mand
+532,66,2022-02-11 17:03:01,2022-02-11 17:04:28,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Nej,Ja,Familiært sprog,Mand,18-24,Mand
+533,66,2022-02-11 17:03:01,2022-02-11 17:04:28,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Familiært sprog,Mand,18-24,Mand
+534,66,2022-02-11 17:03:01,2022-02-11 17:04:28,anonymous,,English (United States)‎,Ja,Ja,Åbner programmer på din desktop,,Nej,Ja,Familiært sprog,Mand,18-24,Mand
+535,66,2022-02-11 17:03:01,2022-02-11 17:04:28,anonymous,,English (United States)‎,Ja,Ja,,,Nej,Ja,Familiært sprog,Mand,18-24,Mand
+536,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+537,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+538,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,Sende emails,,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+539,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,Oplæse indkomne emails,,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+540,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+541,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+542,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+543,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+544,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+545,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+546,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+547,67,2022-02-11 17:14:04,2022-02-11 17:15:32,anonymous,,English (United States)‎,Ja,Ja,,,Ja,Ja,Familiært sprog,Mand,Under 18,Mand
+548,68,2022-02-11 18:29:54,2022-02-11 18:30:38,anonymous,,English (United States)‎,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Mand
+549,68,2022-02-11 18:29:54,2022-02-11 18:30:38,anonymous,,English (United States)‎,Nej,Ja,To-do liste,,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Mand
+550,68,2022-02-11 18:29:54,2022-02-11 18:30:38,anonymous,,English (United States)‎,Nej,Ja,Vækkeur (præcis klokkeslæt),,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Mand
+551,68,2022-02-11 18:29:54,2022-02-11 18:30:38,anonymous,,English (United States)‎,Nej,Ja,Åbner programmer på din desktop,,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Mand
+552,68,2022-02-11 18:29:54,2022-02-11 18:30:38,anonymous,,English (United States)‎,Nej,Ja,,,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Mand
+553,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,Informationssøgning på Google,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+554,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+555,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,Sende emails,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+556,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,Oplæse indkomne emails,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+557,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+558,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,To-do liste,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+559,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+560,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,Vækkeur (præcis klokkeslæt),,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+561,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,Timer (om X minutter),,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+562,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,Dagens nyheder,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+563,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+564,69,2022-02-11 19:53:24,2022-02-11 19:54:49,anonymous,,English (United States)‎,Nej,Ja,,,Nej,Ja,Formelt sprog,Ikke-binær,18-24,Mand
+565,70,2022-02-11 23:25:14,2022-02-11 23:26:50,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Kvinde,25-34,Kvinde
+566,70,2022-02-11 23:25:14,2022-02-11 23:26:50,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,,Nej,Ja,Familiært sprog,Kvinde,25-34,Kvinde
+567,70,2022-02-11 23:25:14,2022-02-11 23:26:50,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Kvinde,25-34,Kvinde
+568,70,2022-02-11 23:25:14,2022-02-11 23:26:50,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Familiært sprog,Kvinde,25-34,Kvinde
+569,70,2022-02-11 23:25:14,2022-02-11 23:26:50,anonymous,,Dansk,Nej,Ja,"""Fortæl mig en vittighed""",,Nej,Ja,Familiært sprog,Kvinde,25-34,Kvinde
+570,70,2022-02-11 23:25:14,2022-02-11 23:26:50,anonymous,,Dansk,Nej,Ja,Matematiske beregninger,,Nej,Ja,Familiært sprog,Kvinde,25-34,Kvinde
+571,70,2022-02-11 23:25:14,2022-02-11 23:26:50,anonymous,,Dansk,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Familiært sprog,Kvinde,25-34,Kvinde
+572,70,2022-02-11 23:25:14,2022-02-11 23:26:50,anonymous,,Dansk,Nej,Ja,,,Nej,Ja,Familiært sprog,Kvinde,25-34,Kvinde
+573,71,2022-02-12 00:00:40,2022-02-12 00:02:52,anonymous,,English (United States)‎,Nej,Nej,Informationssøgning på Google,,Nej,Nej,Formelt sprog,Mand,25-34,Mand
+574,71,2022-02-12 00:00:40,2022-02-12 00:02:52,anonymous,,English (United States)‎,Nej,Nej,Matematiske beregninger,,Nej,Nej,Formelt sprog,Mand,25-34,Mand
+575,71,2022-02-12 00:00:40,2022-02-12 00:02:52,anonymous,,English (United States)‎,Nej,Nej,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Nej,Formelt sprog,Mand,25-34,Mand
+576,71,2022-02-12 00:00:40,2022-02-12 00:02:52,anonymous,,English (United States)‎,Nej,Nej,Oprette notater / tekst filer som i dikterer,,Nej,Nej,Formelt sprog,Mand,25-34,Mand
+577,71,2022-02-12 00:00:40,2022-02-12 00:02:52,anonymous,,English (United States)‎,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Formelt sprog,Mand,25-34,Mand
+578,71,2022-02-12 00:00:40,2022-02-12 00:02:52,anonymous,,English (United States)‎,Nej,Nej,,,Nej,Nej,Formelt sprog,Mand,25-34,Mand
+579,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,Åbner programmer på din desktop,not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+580,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,"""Fortæl mig en vittighed""",not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+581,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,Vækkeur (præcis klokkeslæt),not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+582,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,Påmindelser (du vælger hvornår),not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+583,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,To-do liste,not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+584,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,Oprette notater / tekst filer som i dikterer,not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+585,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,Oplæse indkomne emails,not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+586,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+587,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,Informationssøgning på Google,not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+588,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,Matematiske beregninger,not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+589,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+590,72,2022-02-12 00:11:04,2022-02-12 00:13:52,anonymous,,English (United States)‎,Nej,Ja,,not really a function but users could be able to choose what gendered voice/accent the VA has (like on iPhone),Nej,Ja,Familiært sprog,Ikke-binær,18-24,Kvinde
+591,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,Informationssøgning på Google,Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+592,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+593,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,Sende emails,Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+594,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,Oplæse indkomne emails,Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+595,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,Oprette notater / tekst filer som i dikterer,Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+596,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,To-do liste,Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+597,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,Påmindelser (du vælger hvornår),Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+598,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,Vækkeur (præcis klokkeslæt),Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+599,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,Timer (om X minutter),Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+600,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,Dagens nyheder,Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+601,73,2022-02-12 04:05:27,2022-02-12 04:06:51,anonymous,,English (United States)‎,Nej,Ja,,Find file on my computer,Nej,Nej,Familiært sprog,Ikke-binær,35-44,Kvinde
+602,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,Informationssøgning på Google,,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+603,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,Informationssøgning på Wikipedia,,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+604,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+605,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+606,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,To-do liste,,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+607,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,Påmindelser (du vælger hvornår),,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+608,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,Timer (om X minutter),,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+609,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,Vækkeur (præcis klokkeslæt),,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+610,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,Åbner programmer på din desktop,,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+611,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,Matematiske beregninger,,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+612,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+613,74,2022-02-12 04:48:29,2022-02-12 04:51:52,anonymous,,English (United States)‎,Nej,Nej,,,Ja,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+614,75,2022-02-12 07:02:09,2022-02-12 07:03:52,anonymous,,Dansk,Nej,Nej,Informationssøgning på Google,,Ja,Ja,Formelt sprog,Kvinde,65+,Kvinde
+615,75,2022-02-12 07:02:09,2022-02-12 07:03:52,anonymous,,Dansk,Nej,Nej,,,Ja,Ja,Formelt sprog,Kvinde,65+,Kvinde
+616,76,2022-02-12 09:03:34,2022-02-12 09:04:59,anonymous,,Dansk,Ja,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Formelt sprog,Ikke-binær,25-34,Kvinde
+617,76,2022-02-12 09:03:34,2022-02-12 09:04:59,anonymous,,Dansk,Ja,Nej,,,Nej,Nej,Formelt sprog,Ikke-binær,25-34,Kvinde
+618,77,2022-02-12 11:25:44,2022-02-12 11:26:47,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Mand,25-34,Mand
+619,77,2022-02-12 11:25:44,2022-02-12 11:26:47,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Mand,25-34,Mand
+620,77,2022-02-12 11:25:44,2022-02-12 11:26:47,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Familiært sprog,Mand,25-34,Mand
+621,77,2022-02-12 11:25:44,2022-02-12 11:26:47,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Ja,Ja,Familiært sprog,Mand,25-34,Mand
+622,77,2022-02-12 11:25:44,2022-02-12 11:26:47,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Ja,Ja,Familiært sprog,Mand,25-34,Mand
+623,77,2022-02-12 11:25:44,2022-02-12 11:26:47,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Mand,25-34,Mand
+624,77,2022-02-12 11:25:44,2022-02-12 11:26:47,anonymous,,Dansk,Ja,Ja,,,Ja,Ja,Familiært sprog,Mand,25-34,Mand
+625,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+626,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+627,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+628,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Sende emails,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+629,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+630,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+631,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,To-do liste,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+632,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+633,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+634,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+635,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+636,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+637,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+638,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+639,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+640,78,2022-02-12 12:46:19,2022-02-12 12:50:05,anonymous,,Dansk,Ja,Ja,,,Ja,Ja,Formelt sprog,Ikke-binær,65+,Mand
+641,79,2022-02-12 21:37:37,2022-02-12 21:39:32,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+642,79,2022-02-12 21:37:37,2022-02-12 21:39:32,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+643,79,2022-02-12 21:37:37,2022-02-12 21:39:32,anonymous,,Dansk,Nej,Ja,Matematiske beregninger,,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+644,79,2022-02-12 21:37:37,2022-02-12 21:39:32,anonymous,,Dansk,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+645,79,2022-02-12 21:37:37,2022-02-12 21:39:32,anonymous,,Dansk,Nej,Ja,,,Nej,Ja,Formelt sprog,Kvinde,18-24,Kvinde
+646,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+647,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+648,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+649,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Sende emails,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+650,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+651,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+652,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,To-do liste,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+653,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+654,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+655,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+656,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+657,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+658,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+659,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+660,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+661,80,2022-02-13 11:04:46,2022-02-13 11:08:45,anonymous,,Dansk,Ja,Ja,,,Ja,Ja,Familiært sprog,Mand,55-64,Mand
+662,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Informationssøgning på Google,"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+663,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Informationssøgning på Wikipedia,"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+664,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Sende emails,"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+665,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Oplæse indkomne emails,"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+666,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Oprette notater / tekst filer som i dikterer,"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+667,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,To-do liste,"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+668,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Vækkeur (præcis klokkeslæt),"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+669,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Timer (om X minutter),"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+670,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,"""Fortæl mig en vittighed""","Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+671,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Dagens nyheder,"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+672,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+673,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Påmindelser (du vælger hvornår),"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+674,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,Åbner programmer på din desktop,"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+675,81,2022-02-13 11:01:36,2022-02-13 11:10:31,anonymous,,Dansk,Nej,Nej,,"Create Meeting invitations, deleting meetings, cancelling etc ",Nej,Ja,Familiært sprog,Ikke-binær,25-34,Kvinde
+676,82,2022-02-13 11:21:09,2022-02-13 11:22:17,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Mand,35-44,Kvinde
+677,82,2022-02-13 11:21:09,2022-02-13 11:22:17,anonymous,,Dansk,Nej,Ja,Vækkeur (præcis klokkeslæt),,Nej,Ja,Familiært sprog,Mand,35-44,Kvinde
+678,82,2022-02-13 11:21:09,2022-02-13 11:22:17,anonymous,,Dansk,Nej,Ja,,,Nej,Ja,Familiært sprog,Mand,35-44,Kvinde
+679,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+680,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+681,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+682,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Sende emails,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+683,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+684,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+685,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,To-do liste,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+686,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+687,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+688,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+689,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+690,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Dagens nyheder,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+691,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Åbner programmer på din desktop,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+692,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+693,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+694,83,2022-02-13 11:20:47,2022-02-13 11:22:42,anonymous,,Dansk,Ja,Ja,,,Ja,Ja,Formelt sprog,Ikke-binær,45-54,Kvinde
+695,84,2022-02-13 11:28:30,2022-02-13 11:30:33,anonymous,,Dansk,Nej,Ja,To-do liste,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+696,84,2022-02-13 11:28:30,2022-02-13 11:30:33,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+697,84,2022-02-13 11:28:30,2022-02-13 11:30:33,anonymous,,Dansk,Nej,Ja,Dagens nyheder,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+698,84,2022-02-13 11:28:30,2022-02-13 11:30:33,anonymous,,Dansk,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+699,84,2022-02-13 11:28:30,2022-02-13 11:30:33,anonymous,,Dansk,Nej,Ja,,,Ja,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+700,85,2022-02-13 11:30:10,2022-02-13 11:31:23,anonymous,,Dansk,Nej,Nej,Informationssøgning på Google,,Nej,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+701,85,2022-02-13 11:30:10,2022-02-13 11:31:23,anonymous,,Dansk,Nej,Nej,,,Nej,Ja,Formelt sprog,Ikke-binær,35-44,Kvinde
+702,86,2022-02-13 11:33:31,2022-02-13 11:34:44,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+703,86,2022-02-13 11:33:31,2022-02-13 11:34:44,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+704,86,2022-02-13 11:33:31,2022-02-13 11:34:44,anonymous,,Dansk,Ja,Ja,Sende emails,,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+705,86,2022-02-13 11:33:31,2022-02-13 11:34:44,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+706,86,2022-02-13 11:33:31,2022-02-13 11:34:44,anonymous,,Dansk,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+707,86,2022-02-13 11:33:31,2022-02-13 11:34:44,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+708,86,2022-02-13 11:33:31,2022-02-13 11:34:44,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+709,86,2022-02-13 11:33:31,2022-02-13 11:34:44,anonymous,,Dansk,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+710,86,2022-02-13 11:33:31,2022-02-13 11:34:44,anonymous,,Dansk,Ja,Ja,,,Ja,Nej,Familiært sprog,Kvinde,45-54,Kvinde
+711,87,2022-02-13 11:51:23,2022-02-13 11:53:27,anonymous,,Dansk,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+712,87,2022-02-13 11:51:23,2022-02-13 11:53:27,anonymous,,Dansk,Nej,Nej,To-do liste,,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+713,87,2022-02-13 11:51:23,2022-02-13 11:53:27,anonymous,,Dansk,Nej,Nej,Åbner programmer på din desktop,,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+714,87,2022-02-13 11:51:23,2022-02-13 11:53:27,anonymous,,Dansk,Nej,Nej,Informationssøgning på Google,,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+715,87,2022-02-13 11:51:23,2022-02-13 11:53:27,anonymous,,Dansk,Nej,Nej,,,Nej,Ja,Formelt sprog,Mand,55-64,Kvinde
+716,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+717,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+718,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+719,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+720,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+721,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+722,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,Åbner programmer på din desktop,,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+723,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+724,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+725,88,2022-02-13 11:51:59,2022-02-13 11:54:52,anonymous,,English (United States)‎,Ja,Ja,,,Nej,Ja,Formelt sprog,Kvinde,35-44,Mand
+726,89,2022-02-13 12:03:57,2022-02-13 12:05:39,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Kvinde,55-64,Kvinde
+727,89,2022-02-13 12:03:57,2022-02-13 12:05:39,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Kvinde,55-64,Kvinde
+728,89,2022-02-13 12:03:57,2022-02-13 12:05:39,anonymous,,Dansk,Nej,Ja,Sende emails,,Nej,Ja,Familiært sprog,Kvinde,55-64,Kvinde
+729,89,2022-02-13 12:03:57,2022-02-13 12:05:39,anonymous,,Dansk,Nej,Ja,To-do liste,,Nej,Ja,Familiært sprog,Kvinde,55-64,Kvinde
+730,89,2022-02-13 12:03:57,2022-02-13 12:05:39,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Familiært sprog,Kvinde,55-64,Kvinde
+731,89,2022-02-13 12:03:57,2022-02-13 12:05:39,anonymous,,Dansk,Nej,Ja,Dagens nyheder,,Nej,Ja,Familiært sprog,Kvinde,55-64,Kvinde
+732,89,2022-02-13 12:03:57,2022-02-13 12:05:39,anonymous,,Dansk,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Ja,Familiært sprog,Kvinde,55-64,Kvinde
+733,89,2022-02-13 12:03:57,2022-02-13 12:05:39,anonymous,,Dansk,Nej,Ja,,,Nej,Ja,Familiært sprog,Kvinde,55-64,Kvinde
+734,90,2022-02-13 12:31:20,2022-02-13 12:32:55,anonymous,,Dansk,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Familiært sprog,Ikke-binær,45-54,Mand
+735,90,2022-02-13 12:31:20,2022-02-13 12:32:55,anonymous,,Dansk,Nej,Nej,,,Nej,Nej,Familiært sprog,Ikke-binær,45-54,Mand
+736,91,2022-02-13 12:47:18,2022-02-13 12:48:39,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Kvinde,35-44,Mand
+737,91,2022-02-13 12:47:18,2022-02-13 12:48:39,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Familiært sprog,Kvinde,35-44,Mand
+738,91,2022-02-13 12:47:18,2022-02-13 12:48:39,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Kvinde,35-44,Mand
+739,91,2022-02-13 12:47:18,2022-02-13 12:48:39,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Ja,Ja,Familiært sprog,Kvinde,35-44,Mand
+740,91,2022-02-13 12:47:18,2022-02-13 12:48:39,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Kvinde,35-44,Mand
+741,91,2022-02-13 12:47:18,2022-02-13 12:48:39,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Kvinde,35-44,Mand
+742,91,2022-02-13 12:47:18,2022-02-13 12:48:39,anonymous,,English (United States)‎,Ja,Ja,Åbner programmer på din desktop,,Ja,Ja,Familiært sprog,Kvinde,35-44,Mand
+743,91,2022-02-13 12:47:18,2022-02-13 12:48:39,anonymous,,English (United States)‎,Ja,Ja,,,Ja,Ja,Familiært sprog,Kvinde,35-44,Mand
+744,92,2022-02-13 14:32:16,2022-02-13 14:33:45,anonymous,,Dansk,Nej,Nej,Matematiske beregninger,,Ja,Nej,Familiært sprog,Kvinde,35-44,Mand
+745,92,2022-02-13 14:32:16,2022-02-13 14:33:45,anonymous,,Dansk,Nej,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Nej,Familiært sprog,Kvinde,35-44,Mand
+746,92,2022-02-13 14:32:16,2022-02-13 14:33:45,anonymous,,Dansk,Nej,Nej,,,Ja,Nej,Familiært sprog,Kvinde,35-44,Mand
+747,93,2022-02-13 15:19:47,2022-02-13 15:22:04,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+748,93,2022-02-13 15:19:47,2022-02-13 15:22:04,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+749,93,2022-02-13 15:19:47,2022-02-13 15:22:04,anonymous,,Dansk,Nej,Ja,To-do liste,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+750,93,2022-02-13 15:19:47,2022-02-13 15:22:04,anonymous,,Dansk,Nej,Ja,Vækkeur (præcis klokkeslæt),,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+751,93,2022-02-13 15:19:47,2022-02-13 15:22:04,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+752,93,2022-02-13 15:19:47,2022-02-13 15:22:04,anonymous,,Dansk,Nej,Ja,Sende emails,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+753,93,2022-02-13 15:19:47,2022-02-13 15:22:04,anonymous,,Dansk,Nej,Ja,Oplæse indkomne emails,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+754,93,2022-02-13 15:19:47,2022-02-13 15:22:04,anonymous,,Dansk,Nej,Ja,,,Nej,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+755,94,2022-02-13 16:08:33,2022-02-13 16:10:26,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Ja,Nej,Familiært sprog,Ikke-binær,25-34,Mand
+756,94,2022-02-13 16:08:33,2022-02-13 16:10:26,anonymous,,Dansk,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Nej,Familiært sprog,Ikke-binær,25-34,Mand
+757,94,2022-02-13 16:08:33,2022-02-13 16:10:26,anonymous,,Dansk,Ja,Ja,Timer (om X minutter),,Ja,Nej,Familiært sprog,Ikke-binær,25-34,Mand
+758,94,2022-02-13 16:08:33,2022-02-13 16:10:26,anonymous,,Dansk,Ja,Ja,,,Ja,Nej,Familiært sprog,Ikke-binær,25-34,Mand
+759,95,2022-02-13 16:50:03,2022-02-13 16:52:07,anonymous,,Dansk,Ja,Nej,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+760,95,2022-02-13 16:50:03,2022-02-13 16:52:07,anonymous,,Dansk,Ja,Nej,Oplæse indkomne emails,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+761,95,2022-02-13 16:50:03,2022-02-13 16:52:07,anonymous,,Dansk,Ja,Nej,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+762,95,2022-02-13 16:50:03,2022-02-13 16:52:07,anonymous,,Dansk,Ja,Nej,Påmindelser (du vælger hvornår),,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+763,95,2022-02-13 16:50:03,2022-02-13 16:52:07,anonymous,,Dansk,Ja,Nej,Dagens nyheder,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+764,95,2022-02-13 16:50:03,2022-02-13 16:52:07,anonymous,,Dansk,Ja,Nej,Sende emails,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+765,95,2022-02-13 16:50:03,2022-02-13 16:52:07,anonymous,,Dansk,Ja,Nej,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+766,95,2022-02-13 16:50:03,2022-02-13 16:52:07,anonymous,,Dansk,Ja,Nej,Informationssøgning på Wikipedia,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+767,95,2022-02-13 16:50:03,2022-02-13 16:52:07,anonymous,,Dansk,Ja,Nej,,,Nej,Ja,Familiært sprog,Ikke-binær,45-54,Kvinde
+768,96,2022-02-13 17:14:04,2022-02-13 17:16:22,anonymous,,Dansk,Ja,Ja,Informationssøgning på Google,,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+769,96,2022-02-13 17:14:04,2022-02-13 17:16:22,anonymous,,Dansk,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+770,96,2022-02-13 17:14:04,2022-02-13 17:16:22,anonymous,,Dansk,Ja,Ja,Oplæse indkomne emails,,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+771,96,2022-02-13 17:14:04,2022-02-13 17:16:22,anonymous,,Dansk,Ja,Ja,To-do liste,,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+772,96,2022-02-13 17:14:04,2022-02-13 17:16:22,anonymous,,Dansk,Ja,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+773,96,2022-02-13 17:14:04,2022-02-13 17:16:22,anonymous,,Dansk,Ja,Ja,"""Fortæl mig en vittighed""",,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+774,96,2022-02-13 17:14:04,2022-02-13 17:16:22,anonymous,,Dansk,Ja,Ja,Matematiske beregninger,,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+775,96,2022-02-13 17:14:04,2022-02-13 17:16:22,anonymous,,Dansk,Ja,Ja,,,Nej,Ja,Familiært sprog,Mand,45-54,Kvinde
+776,97,2022-02-13 17:36:27,2022-02-13 17:39:23,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+777,97,2022-02-13 17:36:27,2022-02-13 17:39:23,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+778,97,2022-02-13 17:36:27,2022-02-13 17:39:23,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Ja,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+779,97,2022-02-13 17:36:27,2022-02-13 17:39:23,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,,Ja,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+780,97,2022-02-13 17:36:27,2022-02-13 17:39:23,anonymous,,Dansk,Nej,Ja,Sende emails,,Ja,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+781,97,2022-02-13 17:36:27,2022-02-13 17:39:23,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Ja,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+782,97,2022-02-13 17:36:27,2022-02-13 17:39:23,anonymous,,Dansk,Nej,Ja,,,Ja,Nej,Familiært sprog,Ikke-binær,55-64,Kvinde
+783,98,2022-02-13 20:01:40,2022-02-13 20:05:10,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Nej,Familiært sprog,Ikke-binær,65+,Mand
+784,98,2022-02-13 20:01:40,2022-02-13 20:05:10,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,,Nej,Nej,Familiært sprog,Ikke-binær,65+,Mand
+785,98,2022-02-13 20:01:40,2022-02-13 20:05:10,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Familiært sprog,Ikke-binær,65+,Mand
+786,98,2022-02-13 20:01:40,2022-02-13 20:05:10,anonymous,,Dansk,Nej,Ja,Vækkeur (præcis klokkeslæt),,Nej,Nej,Familiært sprog,Ikke-binær,65+,Mand
+787,98,2022-02-13 20:01:40,2022-02-13 20:05:10,anonymous,,Dansk,Nej,Ja,Dagens nyheder,,Nej,Nej,Familiært sprog,Ikke-binær,65+,Mand
+788,98,2022-02-13 20:01:40,2022-02-13 20:05:10,anonymous,,Dansk,Nej,Ja,,,Nej,Nej,Familiært sprog,Ikke-binær,65+,Mand
+789,99,2022-02-13 20:03:27,2022-02-13 20:08:19,anonymous,,Dansk,Nej,Ja,Informationssøgning på Google,,Nej,Nej,Familiært sprog,Mand,65+,Kvinde
+790,99,2022-02-13 20:03:27,2022-02-13 20:08:19,anonymous,,Dansk,Nej,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Nej,Nej,Familiært sprog,Mand,65+,Kvinde
+791,99,2022-02-13 20:03:27,2022-02-13 20:08:19,anonymous,,Dansk,Nej,Ja,Informationssøgning på Wikipedia,,Nej,Nej,Familiært sprog,Mand,65+,Kvinde
+792,99,2022-02-13 20:03:27,2022-02-13 20:08:19,anonymous,,Dansk,Nej,Ja,To-do liste,,Nej,Nej,Familiært sprog,Mand,65+,Kvinde
+793,99,2022-02-13 20:03:27,2022-02-13 20:08:19,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),,Nej,Nej,Familiært sprog,Mand,65+,Kvinde
+794,99,2022-02-13 20:03:27,2022-02-13 20:08:19,anonymous,,Dansk,Nej,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Nej,Nej,Familiært sprog,Mand,65+,Kvinde
+795,99,2022-02-13 20:03:27,2022-02-13 20:08:19,anonymous,,Dansk,Nej,Ja,Dagens nyheder,,Nej,Nej,Familiært sprog,Mand,65+,Kvinde
+796,99,2022-02-13 20:03:27,2022-02-13 20:08:19,anonymous,,Dansk,Nej,Ja,,,Nej,Nej,Familiært sprog,Mand,65+,Kvinde
+797,100,2022-02-14 13:49:25,2022-02-14 13:51:36,anonymous,,Dansk,Nej,Ja,Sende emails,,Nej,Ja,Formelt sprog,Ikke-binær,55-64,Kvinde
+798,100,2022-02-14 13:49:25,2022-02-14 13:51:36,anonymous,,Dansk,Nej,Ja,Oplæse indkomne emails,,Nej,Ja,Formelt sprog,Ikke-binær,55-64,Kvinde
+799,100,2022-02-14 13:49:25,2022-02-14 13:51:36,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Ja,Formelt sprog,Ikke-binær,55-64,Kvinde
+800,100,2022-02-14 13:49:25,2022-02-14 13:51:36,anonymous,,Dansk,Nej,Ja,Påmindelser (du vælger hvornår),,Nej,Ja,Formelt sprog,Ikke-binær,55-64,Kvinde
+801,100,2022-02-14 13:49:25,2022-02-14 13:51:36,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Nej,Ja,Formelt sprog,Ikke-binær,55-64,Kvinde
+802,100,2022-02-14 13:49:25,2022-02-14 13:51:36,anonymous,,Dansk,Nej,Ja,,,Nej,Ja,Formelt sprog,Ikke-binær,55-64,Kvinde
+803,101,2022-02-15 07:13:34,2022-02-15 07:15:48,anonymous,,Dansk,Nej,Ja,Dagens nyheder,,Nej,Nej,Formelt sprog,Ikke-binær,25-34,Kvinde
+804,101,2022-02-15 07:13:34,2022-02-15 07:15:48,anonymous,,Dansk,Nej,Ja,Åbner programmer på din desktop,,Nej,Nej,Formelt sprog,Ikke-binær,25-34,Kvinde
+805,101,2022-02-15 07:13:34,2022-02-15 07:15:48,anonymous,,Dansk,Nej,Ja,Oprette notater / tekst filer som i dikterer,,Nej,Nej,Formelt sprog,Ikke-binær,25-34,Kvinde
+806,101,2022-02-15 07:13:34,2022-02-15 07:15:48,anonymous,,Dansk,Nej,Ja,To-do liste,,Nej,Nej,Formelt sprog,Ikke-binær,25-34,Kvinde
+807,101,2022-02-15 07:13:34,2022-02-15 07:15:48,anonymous,,Dansk,Nej,Ja,,,Nej,Nej,Formelt sprog,Ikke-binær,25-34,Kvinde
+808,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Google,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+809,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Informationssøgning på Wikipedia,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+810,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Oversættelse til et valgfrit sprog (Google oversæt),,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+811,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Sende emails,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+812,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Oplæse indkomne emails,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+813,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Oprette notater / tekst filer som i dikterer,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+814,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,To-do liste,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+815,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Påmindelser (du vælger hvornår),,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+816,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Vækkeur (præcis klokkeslæt),,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+817,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Timer (om X minutter),,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+818,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Dagens nyheder,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+819,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Åbner programmer på din desktop,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+820,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,Matematiske beregninger,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+821,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,"Enhedskonvertering (valuta, vægt, osv.)",,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
+822,102,2022-02-16 18:29:34,2022-02-16 18:31:18,anonymous,,English (United States)‎,Ja,Ja,,,Ja,Ja,Familiært sprog,Ikke-binær,35-44,Mand
