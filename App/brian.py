@@ -1,22 +1,29 @@
 '''imports'''
 #import time
 
-import Communication.Input as ind
-import Communication.output as out
+import Communication.SpeechIn as ind
+import Communication.Output as out
 
 
-i = ind.Input()
+i = ind.SpeechIn()
 
 WAKE = "hey brian"
 print("BRIAN initialized")
 
 while True:
-    x = range(3)
+    print("Listening...")
+    #x = range(3)
     text = i.listen()
-    print("text: " + text)
     if text.count(WAKE) > 0:
-        out = out.Output()
-        out.say("Yes?")
+        try:
+            del text
+            o = out.Output()
+            o.say("Yes?")
+        except AttributeError:
+            print("Attribute Error")
         # now add the recognizer to listen/execute command
-        text = i.listen()
-        i.interpret(text)
+        try:
+            command = i.listen()
+            i.interpret(command)
+        except Exception as ex:
+            print(f"Unknown Error: {ex}")

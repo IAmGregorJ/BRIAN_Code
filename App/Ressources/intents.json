@@ -1,5 +1,8 @@
 {"intents":
 [
+    {"tag": "test",
+        "patterns": ["I'm testing this", "Test", "This is a test", "I need to test this", "Testing"],
+        "responses": ["testing()"]},
     {"tag": "greeting",
         "patterns": ["Hey", "Hello", "what's up", "How's it going?", "Hi"],
         "responses": ["Hello Sir! What can I do for you?"]},
