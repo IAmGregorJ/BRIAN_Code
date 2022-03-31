@@ -10,12 +10,13 @@ class Status():
         status = out.Output()
         cpu = self.get_cpu_usage_pct()
         temp = self.get_cpu_temp()
-        ram = round(self.get_ram_usage() / 1024 / 1024, 2)
-        status.say(f"I'm doing just fine, thanks. My cpu load is at {cpu} percent"
+        ram = round(self.get_ram_usage() / 1024 / 1024 / 1024, 2)
+        status.say(f"I'm doing just fine thanks. My cpu load is at {cpu} percent"
                     f" and my temperature is {temp} degrees."
-                    f" RAM usage is at {ram} megabytes."
+                    f" RAM usage is at {ram} gigabytes."
                     "The sun is shining somewhere in the world"
                     " and you're here with me. I'm happy!")
+        del status
     def get_cpu_usage_pct(self):
         '''the system's average CPU load as measured over a period of 500 ms'''
         return psutil.cpu_percent(interval=0.5)

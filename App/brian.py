@@ -1,9 +1,8 @@
+# Make sure to run this like: brian.py 2>/dev/null
 '''imports'''
-#import time
-
+import traceback
 import Communication.SpeechIn as ind
 import Communication.Output as out
-
 
 i = ind.SpeechIn()
 
@@ -27,3 +26,4 @@ while True:
             i.interpret(command)
         except Exception as ex:
             print(f"Unknown Error: {ex}")
+            print(traceback.format_exc())
