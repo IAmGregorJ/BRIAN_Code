@@ -8,22 +8,26 @@ from Functions import (
     TimeFunctions as tf,
     SystemFunctions as sf,
     Sayings as sa,
-    Todos as todo
+    Todos as todo,
+    SearchWikipedia as wp,
+    Translation as tr
 )
+from sty import fg
 
 class SpeechIn:
     '''used to listen, hear and speak'''
     def __init__(self) -> None:
         url = "http://www.google.com"
         timeout = 5
+        self.recon = sr.Recognizer()
         try:
             requests.get(url, timeout = timeout)
         except(requests.ConnectionError, requests.Timeout) as ex:
             print("There is no internet connection: " + str(ex))
-            nc = out.Output()
-            nc.no_connection()
-        print("Listening...")
-    def listen(self):
+            out.Output.no_connection()
+
+    @staticmethod
+    def listen():
         '''listen'''
         recon = sr.Recognizer()
         with sr.Microphone() as source:
@@ -32,13 +36,16 @@ class SpeechIn:
             said = ""
             try:
                 said = recon.recognize_google(audio)
-                print(said) #should be removed once tested
+                print("")
+                print(fg.green, said, fg.rs) #should be removed once tested
             except sr.UnknownValueError:
                 pass
             except sr.RequestError as ex:
                 print(f"The Google speech recognition API was unreachable; {format(ex)}")
             return said.lower()
-    def dictate(self):
+
+    @staticmethod
+    def dictate():
         '''same as hear but with better text recognition'''
         recon = sr.Recognizer()
         with sr.Microphone() as source:
@@ -52,13 +59,15 @@ class SpeechIn:
                             (" exclamation point", "!"),
                             (" question mark", "?")):
                     said = said.replace(*punct)
-                print(said) #should be removed once tested
+                print(fg.blue, said, fg.rs) #should be removed once tested
             except sr.UnknownValueError as ex:
                 print("No sound received: " + str(ex))
             except sr.RequestError as ex:
                 print(f"The Google speech recognition API was unreachable; {format(ex)}")
             return said
-    def interpret(self, text):
+
+    @staticmethod
+    def interpret(text):
         '''the intents engine neuralintents died - this is the result'''
         # What happens if you use two "code words" in the same sentence??
         # "Multiple if's means your code would go and check all the if conditions,
@@ -73,7 +82,8 @@ class SpeechIn:
                             "are you feeling"]
         for phrase in status_strings:
             if phrase in text:
-                st.Status()
+                s = st.Status()
+                s.give_status()
 
         time_strings = ["what is the time",
                             "current time",
@@ -106,15 +116,13 @@ class SpeechIn:
                             "see you later"]
         for phrase in exit_strings:
             if phrase in text:
-                e = sf.SystemFunction()
-                e.exitapp()
+                sf.SystemFunction.exitapp()
 
         shutdown_strings = ["turn off",
                             "shut down"]
         for phrase in shutdown_strings:
             if phrase in text:
-                s = sf.SystemFunction()
-                s.shutdown()
+                sf.SystemFunction.shutdown()
 
         joke_strings = ["tell me a joke",
                             "something funny",
@@ -159,3 +167,32 @@ class SpeechIn:
             if phrase in text:
                 t = todo.Todo()
                 t.delete_todo()
+
+        pomodoro_start_strings = ["start the pomodoro",
+                            "begin a pomodoro",
+                            "start pomodoro"]
+        for phrase in pomodoro_start_strings:
+            if phrase in text:
+                tf.TimeFunction.run_pomodoro()
+
+        pomodoro_stop_strings = ["stop the pomodoro",
+                            "stop pomodoro"]
+        for phrase in pomodoro_stop_strings:
+            if phrase in text:
+                tf.TimeFunction.stop_pomodoro()
+
+        wikipedia_strings = ["search wikipedia",
+                            "search on wikipedia"
+                            "query wikipedia"]
+        for phrase in wikipedia_strings:
+            if phrase in text:
+                w = wp.SearchWikipedia()
+                w.wikisearch()
+
+        translate_strings = ["translate something",
+                            "to translate",
+                            "a translation"]
+        for phrase in translate_strings:
+            if phrase in text:
+                t = tr.Translate()
+                t.get_source()
