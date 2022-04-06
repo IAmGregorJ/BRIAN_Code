@@ -2,9 +2,10 @@
 import sqlite3
 import random
 import datetime
+from abc import ABC, abstractmethod
 
 # pylint: disable=consider-using-f-string
-class DbController:
+class DbController(ABC):
     '''class defining the connection and cursor'''
     def __init__(self):
         self.db = sqlite3.connect("App/Ressources/BRIAN.db")
@@ -12,6 +13,16 @@ class DbController:
     def close(self):
         '''closing the connection'''
         self.cursor.close()
+
+    @abstractmethod
+    def get(self):
+        '''get method'''
+    @abstractmethod
+    def add(self):
+        '''add method'''
+    @abstractmethod
+    def delete(self):
+        '''delete method'''
 
 # class DbController:
 #     '''class defining the connection and cursor'''
@@ -37,20 +48,28 @@ class DbController:
 
 class SayingController(DbController):
     '''controller to get saying from the db'''
+    #pylint: disable=arguments-differ
     def get(self, table, m):
         '''the actual controller'''
         rand = random.randint(1, m)
         self.cursor.execute("SELECT text FROM {} WHERE id = ?".format(table), (rand,))
         saying = self.cursor.fetchone()[0]
         return saying
+    def add(self):
+        '''add method'''
+    def delete(self):
+        '''delete method'''
+
 
 class TodoController(DbController):
     '''controller to CRUD todo list'''
+    #pylint: disable=arguments-differ
     def get(self, table):
         '''get todo list from db'''
-        self.cursor.execute("""SELECT id, todo FROM {}""".format(table))
+        cursor = self.cursor
+        cursor.execute("""SELECT id, todo FROM {}""".format(table))
         try:
-            data = self.cursor.fetchall()
+            data = cursor.fetchall()
         except TypeError:
             return 0
         return data

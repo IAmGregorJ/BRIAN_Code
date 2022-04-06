@@ -2,7 +2,7 @@
 import sqlite3
 import unittest
 
-from Communication.Data import SayingController, TodoController
+from Communication.DbController import SayingController, TodoController
 
 class TestDatabase(unittest.TestCase):
     '''test the temp database'''

@@ -1,6 +1,7 @@
+'''imports'''
+import csv
 from bs4 import BeautifulSoup as bs
 import requests
-import csv
 
 count = 1
 quotes_list = []

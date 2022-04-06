@@ -1,6 +1,7 @@
+'''imports'''
+import csv
 from bs4 import BeautifulSoup as bs
 import requests
-import csv
 
 page = 1
 count = 1
@@ -34,7 +35,7 @@ parse(f"https://onelinefun.com/dirty/{page}/", 46)
 print(jokes_list)
 
 filename = 'jokes.csv'
-with open(filename, 'w', newline='') as f:
+with open(filename, 'w', newline='') as f: #pylint: disable=unspecified-encoding
     w = csv.DictWriter(f,['index','joke'])
     w.writeheader()
      

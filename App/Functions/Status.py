@@ -3,20 +3,20 @@ import os
 import psutil
 import Communication.Output as out
 
-
 class Status():
     '''answer to the question how are you?'''
-    def __init__(self) -> None:
-        status = out.Output()
-        cpu = self.get_cpu_usage_pct()
-        temp = self.get_cpu_temp()
-        ram = round(self.get_ram_usage() / 1024 / 1024 / 1024, 2)
-        status.say(f"I'm doing just fine thanks. My cpu load is at {cpu} percent"
-                    f" and my temperature is {temp} degrees."
-                    f" RAM usage is at {ram} gigabytes."
+    def __init__(self):
+        self.cpu = self.get_cpu_usage_pct()
+        self.temp = self.get_cpu_temp()
+        self.ram = round(self.get_ram_usage() / 1024 / 1024 / 1024, 2)
+
+    def give_status(self):
+        '''give an output of the current status'''
+        out.Output.say(f"I'm doing just fine thanks. My cpu load is at {self.cpu} percent"
+                    f" and my temperature is {self.temp} degrees."
+                    f" RAM usage is at {self.ram} gigabytes."
                     "The sun is shining somewhere in the world"
                     " and you're here with me. I'm happy!")
-        del status
     def get_cpu_usage_pct(self):
         '''the system's average CPU load as measured over a period of 500 ms'''
         return psutil.cpu_percent(interval=0.5)
