@@ -16,3 +16,4 @@ class CommandLog:
     def add_command(self, comm):
         '''add todo to list'''
         self.s.add(self.table, comm)
+        

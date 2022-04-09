@@ -1,4 +1,4 @@
-# Make sure to run this like: brian.py 2>/dev/null
+# Make sure to run this like: exec python brian.py 2>/dev/null
 '''imports'''
 import traceback
 import os
@@ -10,12 +10,14 @@ from sty import fg, bg
 os.system('clear')
 user = u.User()
 if user.check_user() == 0:
-    user.create_user()
-if user.check_user() == 1:
+    user.username = user.create_user()
+    user.is_logged_in = True
+else:
     user.name = user.verify_user()
     user.is_logged_in = True
 
 while user.is_logged_in:
+    os.system('clear')
     print(bg.blue, fg.yellow, "BRIAN initialized", fg.rs, bg.rs)
     i = ind.SpeechIn()
     WAKE = "ok brian"

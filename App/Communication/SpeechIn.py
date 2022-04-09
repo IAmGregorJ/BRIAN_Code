@@ -38,8 +38,9 @@ class SpeechIn:
             said = ""
             try:
                 said = recon.recognize_google(audio)
+                time = tf.TimeFunction.print_time()
                 print("")
-                print(fg.green, said, fg.rs) #should be removed once tested
+                print(fg.green, time, said, fg.rs)
             except sr.UnknownValueError:
                 pass
             except sr.RequestError as ex:
@@ -61,7 +62,8 @@ class SpeechIn:
                             (" exclamation point", "!"),
                             (" question mark", "?")):
                     said = said.replace(*punct)
-                print(fg.blue, said, fg.rs) #should be removed once tested
+                    time = tf.TimeFunction.print_time()
+                print(fg.blue, time, said, fg.rs) #should be removed once tested
             except sr.UnknownValueError as ex:
                 print("No sound received: " + str(ex))
             except sr.RequestError as ex:
@@ -179,6 +181,15 @@ class SpeechIn:
             if phrase in text:
                 t = todo.Todo()
                 t.delete_todo()
+
+        timer_strings = ["start a timer",
+                        "start the time",
+                        "start timing",
+                        "set a timer",
+                        "set the timer"]
+        for phrase in timer_strings:
+            if phrase in text:
+                tf.TimeFunction.set_timer()
 
         pomodoro_start_strings = ["start the pomodoro",
                             "begin a pomodoro",
