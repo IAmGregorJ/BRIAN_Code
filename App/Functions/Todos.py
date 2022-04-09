@@ -26,7 +26,7 @@ class Todo:
         self.s.close()
     def add_todo(self):
         '''add todo to list'''
-        text = ind.SpeechIn.dictate()
+        text = self.input_todo_text()
         self.s.add(self.table, text)
         self.show_todo_list()
     def delete_todo(self):

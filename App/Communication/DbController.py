@@ -66,10 +66,9 @@ class TodoController(DbController):
     #pylint: disable=arguments-differ
     def get(self, table):
         '''get todo list from db'''
-        cursor = self.cursor
-        cursor.execute("""SELECT id, todo FROM {}""".format(table))
+        self.cursor.execute("""SELECT id, todo FROM {}""".format(table))
         try:
-            data = cursor.fetchall()
+            data = self.cursor.fetchall()
         except TypeError:
             return 0
         return data
@@ -94,3 +93,47 @@ class TodoController(DbController):
         self.db.commit()
         self.cursor.execute("delete from sqlite_sequence where name='{}';".format(table))
         self.db.commit()
+
+class CommandLogController(DbController):
+    '''controller to log all commands to the db'''
+    #pylint: disable=arguments-differ
+    def get(self, table):
+        '''get method'''
+        self.cursor.execute("""SELECT command, time FROM {}""".format(table))
+        try:
+            data = self.cursor.fetchall()
+        except TypeError:
+            return 0
+        return data
+    def add(self, table, comm):
+        '''add method'''
+        added = datetime.datetime.now()
+        self.cursor.execute("INSERT INTO {} (command, time) VALUES (?, ?)".format(table),
+                            (comm, added))
+        self.db.commit()
+    def delete(self):
+        '''delete method'''
+
+class UserInfoController(DbController):
+    '''controller to register and verify the user'''
+    #pylint: disable=arguments-differ
+    def count(self, table):
+        '''count to see if there is a user'''
+        self.cursor.execute("""SELECT COUNT(*) from {}""".format(table))
+        count = self.cursor.fetchone()[0]
+        return count
+    def get(self, table):
+        '''get method'''
+        cursor = self.cursor
+        cursor.execute("""SELECT name, passphrase from {}""".format(table))
+        data = self.cursor.fetchall()
+        return data
+
+    def add(self, table, name, val):
+        '''add method'''
+        self.cursor.execute("INSERT INTO {} (name, passphrase) VALUES (?, ?)".format(table),
+                        (name, val))
+        self.db.commit()
+
+    def delete(self):
+        '''delete method'''

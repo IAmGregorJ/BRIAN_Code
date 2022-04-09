@@ -10,8 +10,7 @@ class Translate():
             'tamil':'ta',
             'greek':'el',
             'ukrainian':'uk',
-            'arabic':'ar',
-            'lithuanian':'lt'
+            'arabic':'ar'
         }
 
     def get_source(self):
@@ -20,8 +19,7 @@ class Translate():
         source = ind.SpeechIn.dictate()
         out.Output.say("Would you like to translate the text to "
                         f"{self.get_key_from_value('ta')}, {self.get_key_from_value('el')}, "
-                        f"{self.get_key_from_value('uk')}, {self.get_key_from_value('ar')}, "
-                        f"or {self.get_key_from_value('lt')}")
+                        f"{self.get_key_from_value('uk')} or {self.get_key_from_value('ar')}")
         lang = ind.SpeechIn.listen()
         val = self.languages[lang]
         result = self.get_target(val, source)

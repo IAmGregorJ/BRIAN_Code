@@ -6,7 +6,8 @@ import playsound
 import Communication.Output as out
 import Communication.SpeechIn as ind
 
-thread_status = False #yes the use of globals sucks, but I couldn't find an alternative
+pomodoro_stop = False #yes the use of globals sucks, but I couldn't find an alternative
+is_started = False
 
 class TimeFunction:
     '''used for telling time and alarms'''
@@ -36,10 +37,10 @@ class TimeFunction:
             alarm_hour, alarm_minute = TimeFunction.get_time_input()
             done = True
         out.Output.say(f"I have set your alarm to {alarm_hour} {alarm_minute}")
-        x = threading.Thread(target = TimeFunction.alarm_function,
+        a = threading.Thread(target = TimeFunction.alarm_function,
                             args = (alarm_hour, alarm_minute, text),
                             daemon = True)
-        x.start()
+        a.start()
 
     @staticmethod
     def get_time_input():
@@ -90,7 +91,7 @@ class TimeFunction:
     @staticmethod
     def pomodoro_timer():
         '''pomodoro timer'''
-        #global thread_status
+        alarm = "App/Ressources/Timer.mp3"
         count = 0
         while True:
             count += 1
@@ -98,38 +99,76 @@ class TimeFunction:
                 out.Output.say("Your pomodoro session starts now. "
                                 "Work for 25 minutes, then we'll take a short break.")
             else:
+                playsound.playsound(alarm)
                 out.Output.say("Time to get back to work!")
             for _ in range(300):
                 time.sleep(5)
-                if thread_status:
+                if pomodoro_stop:
                     return
             if count % 4 != 0:
+                playsound.playsound(alarm)
                 out.Output.say("Now it's time for a 5 minute break! "
                                 f"You have completed {count} pomodoros so far.")
                 for _ in range(60):
                     time.sleep(5)
-                    if thread_status:
+                    if pomodoro_stop:
                         return
             else:
+                playsound.playsound(alarm)
                 out.Output.say(f"That was your {count}th pomodoro! "
                                 "Stretch your legs for 20 minutes this time.")
                 for _ in range(240):
                     time.sleep(5)
-                    if thread_status:
+                    if pomodoro_stop:
                         return
 
     @staticmethod
     def run_pomodoro():
         '''start the pomodoro timer'''
-        global thread_status #pylint: disable=global-statement
-        thread_status = False
-        x = threading.Thread(target = TimeFunction.pomodoro_timer,
+        global is_started #pylint: disable=global-statement
+        global pomodoro_stop #pylint: disable=global-statement
+        pomodoro_stop = False
+        # CHECK THAT THIS MAY NOT RUN MORE THAN ONCE AT A TIME
+        if not is_started:
+            is_started = True
+            p = threading.Thread(target = TimeFunction.pomodoro_timer,
                             daemon = True)
-        x.start()
+            p.start()
+        else:
+            out.Output.say("I'm sorry, you can only run one pomodoro timer session at a time.")
 
     @staticmethod
     def stop_pomodoro():
         '''stop the pomodoro timer'''
-        global thread_status #pylint: disable=global-statement
-        thread_status = True
+        global pomodoro_stop #pylint: disable=global-statement
+        pomodoro_stop = True
+        global is_started #pylint: disable=global-statement
+        is_started = False
         out.Output.say("Your pomodoro session has been stopped.")
+
+    @staticmethod
+    def set_timer(minutes):
+        '''kitchen timer'''
+        alarm = "App/Ressources/Timer.mp3"
+        time.sleep(minutes)
+        playsound.playsound(alarm)
+        out.Output.say("\nYour timer is finished.")
+
+
+    @staticmethod
+    def timer():
+        '''kitchen timer function'''
+        exmessage = "Sorry, that was some weird input"
+
+        out.Output.say("How many minutes would you like to set the timer for?")
+        minutes = ind.SpeechIn.listen()
+        try:
+            int(minutes)
+        except ValueError:
+            out.Output.say(exmessage)
+            return
+        out.Output.say(f"I have set your timer for {minutes} minutes")
+        t = threading.Thread(target = TimeFunction.set_timer,
+                            args = (minutes),
+                            daemon = True)
+        t.start()

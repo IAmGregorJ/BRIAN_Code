@@ -10,7 +10,9 @@ from Functions import (
     Sayings as sa,
     Todos as todo,
     SearchWikipedia as wp,
-    Translation as tr
+    Translation as tr,
+    SearchWolfram as wa,
+    CommandLogs as cl
 )
 from sty import fg
 
@@ -67,8 +69,17 @@ class SpeechIn:
             return said
 
     @staticmethod
+    def log_command(text):
+        '''logs the commands'''
+        c = cl.CommandLog()
+        c.add_command(text)
+        del c
+
+
+    @staticmethod
     def interpret(text):
         '''the intents engine neuralintents died - this is the result'''
+
         # What happens if you use two "code words" in the same sentence??
         # "Multiple if's means your code would go and check all the if conditions,
         # where as in case of elif, if one if condition satisfies
@@ -77,9 +88,10 @@ class SpeechIn:
         #remove punctuation
         translator = str.maketrans('', '', string.punctuation)
         text = text.translate(translator)
+        SpeechIn.log_command(text)
+
         status_strings = ["how are you",
-                            "are you ok",
-                            "are you feeling"]
+                            "are you ok"]
         for phrase in status_strings:
             if phrase in text:
                 s = st.Status()
@@ -191,8 +203,17 @@ class SpeechIn:
 
         translate_strings = ["translate something",
                             "to translate",
-                            "a translation"]
+                            "a translation",
+                            "google translate"]
         for phrase in translate_strings:
             if phrase in text:
                 t = tr.Translate()
                 t.get_source()
+
+        wolfram_strings = ["a question",
+                            "wolfram",
+                            "ask something"]
+        for phrase in wolfram_strings:
+            if phrase in text:
+                w = wa.SearchWolfram()
+                w.wolfsearch()

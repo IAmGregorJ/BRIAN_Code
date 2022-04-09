@@ -26,3 +26,4 @@ class SystemFunction:
             os.system("shutdown /s /t 1")
         else:
             out.Output.say("Ok, we'll stay right where we are then")
+            
