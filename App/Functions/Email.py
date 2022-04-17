@@ -15,8 +15,8 @@ class Email():
         '''Constructor'''
         config = ConfigParser()
         config.read("App/secrets.ini")
-        self.gmail_password = config.get("gmail", "smtp_pass")
-        self.gmail_user = config.get("gmail", "gmail_user")
+        self.gmail_password = config.get("google", "smtp_pass")
+        self.gmail_user = config.get("google", "gmail_user")
         self.sent_from = ""
         self.send_to = ""
         self.subject = ""

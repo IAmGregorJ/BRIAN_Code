@@ -40,10 +40,11 @@ class User():
     def verify_user(self):
         '''verify the user's passphrase'''
         data = self.get_user()
-        for item in data:
-            name = item[0]
-            __passphrase = item[1]
-            mail = item[2]
+        (name, __passphrase, mail) = data
+        # for item in data:
+        #     name = item[0]
+        #     __passphrase = item[1]
+        #     mail = item[2]
         self.greet(name)
         out.Output.say("Can you please tell me your passphrase before we get started?")
         while True:
@@ -57,9 +58,11 @@ class User():
                         out.Output.say(f"I'm so glad you've joined me {name}. "
                                         "Just let me know if you need anything.")
                         return name, mail
-                out.Output.say("I'm sorry, that was not the correct passphrase. "
+                    else:
+                        out.Output.say("I'm sorry, that was not the correct passphrase. "
                                 "Try again some other time.")
-                sys.exit()
+                        sys.exit()
+                out.Output.say("Go ahead and try again.")
 
     def greet(self, username):
         '''greet the user differently depending on when'''
@@ -108,5 +111,5 @@ class User():
         '''collect the new user's passphrase'''
         out.Output.say("I need your email address too."
                         "Please type it in the console so that I get it correct the first time.")
-        email = input()
+        email = input("> ")
         return email

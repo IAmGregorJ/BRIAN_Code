@@ -21,8 +21,7 @@ from sty import fg
 
 class SpeechIn:
     '''used to listen, hear and speak'''
-    def __init__(self, usermail) -> None:
-        self.mail = usermail
+    def __init__(self) -> None:
         url = "http://www.google.com"
         timeout = 5
         self.recon = sr.Recognizer()
@@ -83,8 +82,8 @@ class SpeechIn:
         del c
 
 
-    @classmethod
-    def interpret(cls, text):
+    @staticmethod
+    def interpret(user, text):
         '''the intents engine neuralintents died - this is the result'''
 
         # What happens if you use two "code words" in the same sentence??
@@ -135,13 +134,19 @@ class SpeechIn:
                             "see you later"]
         for phrase in exit_strings:
             if phrase in text:
-                sf.SystemFunction.exitapp()
+                sf.SystemFunction.exitapp(user.name)
 
         shutdown_strings = ["turn off",
                             "shut down"]
         for phrase in shutdown_strings:
             if phrase in text:
                 sf.SystemFunction.shutdown()
+
+        restart_strings = ["restart",
+                            "reboot"]
+        for phrase in restart_strings:
+            if phrase in text:
+                sf.SystemFunction.restart()
 
         joke_strings = ["tell me a joke",
                             "something funny",
@@ -242,8 +247,7 @@ class SpeechIn:
         for phrase in email_strings:
             if phrase in text:
                 e = em.Email()
-                mail = cls(mail)
-                e.get_mail_input(mail)
+                e.get_mail_input(user.mail)
 
         add_contact_strings = ["add a contact",
                             "a new contact"]
@@ -271,7 +275,7 @@ class SpeechIn:
 
         help_strings = ["need some help",
                             "need help",
-                            "what can I say"
+                            "what can I say",
                             "what can you do"]
         for phrase in help_strings:
             if phrase in text:

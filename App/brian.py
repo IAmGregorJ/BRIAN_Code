@@ -19,7 +19,7 @@ else:
 while user.is_logged_in:
     os.system('clear')
     print(bg.blue, fg.yellow, "BRIAN initialized", fg.rs, bg.rs)
-    i = ind.SpeechIn(user.mail)
+    i = ind.SpeechIn()
     WAKE = "ok brian"
 
     while True:
@@ -34,7 +34,7 @@ while user.is_logged_in:
             # now add the recognizer to listen/execute command
             try:
                 command = ind.SpeechIn.listen()
-                ind.SpeechIn.interpret(command)
+                ind.SpeechIn.interpret(user, command)
             except Exception as ex: #pylint: disable=broad-except
                 print(f"Unknown Error: {ex}")
                 print(traceback.format_exc())

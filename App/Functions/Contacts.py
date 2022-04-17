@@ -1,5 +1,4 @@
 '''imports'''
-from asyncio.windows_events import NULL
 from Communication.DbController import ContactsInfoController as db
 import Communication.Output as out
 import Communication.SpeechIn as ind
@@ -33,11 +32,11 @@ class Contact():
     def get_contact(self):
         '''get method'''
         table = "contacts"
-        while self.email is NULL or self.email == "":
+        while self.email is None or self.email == "":
             out.Output.say("What is the name of the contact?")
             self.name = ind.SpeechIn.listen()
             self.email = self.s.get(table, self.name)
-            if self.email is NULL or self.email =="":
+            if self.email is None or self.email =="":
                 out.Output.say("I'm sorry, there is no contact by that name."
                                 "Try again.")
         self.s.close()
@@ -49,7 +48,7 @@ class Contact():
         out.Output.say("What is the name of the contact you'd like to add?")
         self.name = ind.SpeechIn.listen()
         out.Output.say("Please type their email address in the window.")
-        self.email = input()
+        self.email = input("> ")
         self.s.add(table, self.name, self.email)
         out.Output.say(f"I have added {self.name} to your contacts.")
         self.s.close()
