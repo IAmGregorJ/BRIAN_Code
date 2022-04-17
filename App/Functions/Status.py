@@ -12,10 +12,11 @@ class Status():
 
     def give_status(self):
         '''give an output of the current status'''
+
         out.Output.say(f"I'm doing just fine thanks. My cpu load is at {self.cpu} percent"
                     f" and my temperature is {self.temp} degrees."
                     f" RAM usage is at {self.ram} gigabytes."
-                    "The sun is shining somewhere in the world"
+                    f"The sun is shining somewhere in the world"
                     " and you're here with me. I'm happy!")
     def get_cpu_usage_pct(self):
         '''the system's average CPU load as measured over a period of 500 ms'''

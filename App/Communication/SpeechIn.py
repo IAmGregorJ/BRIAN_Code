@@ -12,13 +12,17 @@ from Functions import (
     SearchWikipedia as wp,
     Translation as tr,
     SearchWolfram as wa,
-    CommandLogs as cl
+    CommandLogs as cl,
+    Email as em,
+    Contacts as ct,
+    Help as hl
 )
 from sty import fg
 
 class SpeechIn:
     '''used to listen, hear and speak'''
-    def __init__(self) -> None:
+    def __init__(self, usermail) -> None:
+        self.mail = usermail
         url = "http://www.google.com"
         timeout = 5
         self.recon = sr.Recognizer()
@@ -60,7 +64,8 @@ class SpeechIn:
                 for punct in ((" comma", ","),
                             (" period", "."),
                             (" exclamation point", "!"),
-                            (" question mark", "?")):
+                            (" question mark", "?"),
+                            (" new line", "\n")):
                     said = said.replace(*punct)
                     time = tf.TimeFunction.print_time()
                 print(fg.blue, time, said, fg.rs) #should be removed once tested
@@ -78,8 +83,8 @@ class SpeechIn:
         del c
 
 
-    @staticmethod
-    def interpret(text):
+    @classmethod
+    def interpret(cls, text):
         '''the intents engine neuralintents died - this is the result'''
 
         # What happens if you use two "code words" in the same sentence??
@@ -228,3 +233,46 @@ class SpeechIn:
             if phrase in text:
                 w = wa.SearchWolfram()
                 w.wolfsearch()
+
+        email_strings = ["send an email",
+                            "send a message",
+                            "write a mail",
+                            "write an email",
+                            "write a message"]
+        for phrase in email_strings:
+            if phrase in text:
+                e = em.Email()
+                mail = cls(mail)
+                e.get_mail_input(mail)
+
+        add_contact_strings = ["add a contact",
+                            "a new contact"]
+        for phrase in add_contact_strings:
+            if phrase in text:
+                c = ct.Contact()
+                c.add_contact()
+
+        delete_contact_strings = ["delete a contact",
+                            "delete contact",
+                            "remove a contact",
+                            "remove contact",
+                            "get rid of a contact"]
+        for phrase in delete_contact_strings:
+            if phrase in text:
+                c = ct.Contact()
+                c.delete_contact()
+
+        show_all_contacts_strings = ["my contacts",
+                            "all contacts"]
+        for phrase in show_all_contacts_strings:
+            if phrase in text:
+                c = ct.Contact()
+                c.show_all_contacts()
+
+        help_strings = ["need some help",
+                            "need help",
+                            "what can I say"
+                            "what can you do"]
+        for phrase in help_strings:
+            if phrase in text:
+                hl.Help()

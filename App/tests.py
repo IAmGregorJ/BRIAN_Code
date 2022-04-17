@@ -4,6 +4,7 @@ import unittest
 
 from Communication.DbController import (
     CommandLogController,
+    ContactsInfoController,
     SayingController,
     TodoController,
     UserInfoController
@@ -33,10 +34,14 @@ class TestDatabase(unittest.TestCase):
                             (command text, time real)""")
         conn.commit()
         cursor.execute("""CREATE TABLE testuser_empty
-                            (name text, passphrase text)""")
+                            (name text, passphrase text, email text)""")
         conn.commit()
         cursor.execute("""CREATE TABLE testuser_populated
-                            (name text, passphrase text)""")
+                            (name text, passphrase text, email text)""")
+        conn.commit()
+        cursor.execute("""CREATE TABLE testcontacts
+                            (name text, email text)""")
+        conn.commit()
         haha = [(1, 'First joke'),
                   (2, 'Second joke'),
                   (3, 'Third joke'),
@@ -49,7 +54,11 @@ class TestDatabase(unittest.TestCase):
                   ('Second command', 20220327091225),
                   ('Third command', 20220327120014),
                   ('4th command', 20220327124545)]
-        user = [('tomato', 'paste')]
+        user = [('tomato', 'paste', 'email@address.com')]
+        contact = [('Daniel', 'daniel@whatever.com'),
+                    ('Fred', 'fred@tomato.com'),
+                    ('Mary', 'mary@mail.com'),
+                    ('John', 'john@hello.com')]
         cursor.executemany("INSERT INTO testjokes VALUES (?,?)",
                            haha)
         conn.commit()
@@ -58,7 +67,12 @@ class TestDatabase(unittest.TestCase):
         conn.commit()
         cursor.executemany("INSERT INTO testcommand_log (command, time) VALUES (?,?)", commands)
         conn.commit()
-        cursor.executemany("INSERT INTO testuser_populated (name, passphrase) VALUES (?, ?)", user)
+        cursor.executemany("INSERT INTO testuser_populated"
+                            " (name, passphrase, email) VALUES (?, ?, ?)", user)
+        conn.commit()
+        cursor.executemany("INSERT INTO testcontacts"
+                            " (name, email) VALUES (?, ?)", contact)
+        conn.commit()
 
     def tearDown(self):
         '''drop the temp tables'''
@@ -73,6 +87,8 @@ class TestDatabase(unittest.TestCase):
         cursor.execute("DROP TABLE testuser_empty")
         conn.commit()
         cursor.execute("DROP TABLE testuser_populated")
+        conn.commit()
+        cursor.execute("DROP TABLE testcontacts")
         conn.commit()
         conn.close()
 
@@ -148,8 +164,9 @@ class TestDatabase(unittest.TestCase):
         t = UserInfoController()
         number = t.count(table)
         name = "rando"
+        mail = "something@whatever.com"
         passhash = "anotherrando"
-        t.add(table, name, passhash)
+        t.add(table, name, passhash, mail)
         self.assertTrue(t.count(table) == number + 1)
         del t
 
@@ -157,8 +174,51 @@ class TestDatabase(unittest.TestCase):
         '''testing to see that getting a user works'''
         table = "testuser_populated"
         t = UserInfoController()
-        name, passphrase = t.get(table)
-        self.assertTrue(name == "tomato" & passphrase == "paste")
+        (name, passphrase, email) = t.get(table)
+        self.assertTrue(name == "tomato")
+        self.assertTrue(passphrase == "paste")
+        self.assertTrue(email == "email@address.com")
+
+    def test_get_contact(self):
+        '''testing getting a contact'''
+        contact_name = "Daniel"
+        table = "testcontacts"
+        c = ContactsInfoController()
+        contact_email = c.get(table, contact_name)
+        self.assertTrue(contact_email == "daniel@whatever.com")
+        del c
+
+    def get_all_contacts(self):
+        '''testing getting contact list'''
+        contacts = ('Daniel', 'Fred', 'Mary', 'John')
+        table = "testcontacts"
+        c = ContactsInfoController()
+        contacts_list = c.get_all(table)
+        #check if all elements of contacts is in contacts_list
+        self.assertTrue(all(elem in dict(contacts_list).values() for elem in contacts))
+        del c
+
+
+    def test_add_contact(self):
+        '''testing to see that adding a contact works'''
+        table = "testcontacts"
+        c = ContactsInfoController()
+        number = c.count(table)
+        name = "rando"
+        mail = "something@whatever.com"
+        c.add(table, name, mail)
+        self.assertTrue(c.count(table) == number + 1)
+        del c
+
+    def test_delete_contact(self):
+        '''testing to see that deleting a contact works'''
+        table = "testcontacts"
+        c = ContactsInfoController()
+        number = c.count(table)
+        name = "Daniel"
+        c.delete(table, name)
+        self.assertTrue(c.count(table) == number - 1)
+        del c
 
 if __name__ == '__main__':
     unittest.main()

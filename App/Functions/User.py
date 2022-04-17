@@ -13,6 +13,7 @@ class User():
         self.name = ""
         self.passphrase = ""
         self.is_logged_in = False
+        self.mail = ""
 
     def check_user(self):
         '''to see if a user exists'''
@@ -30,10 +31,11 @@ class User():
         '''create a user if needed'''
         name = self.get_new_username()
         __passphrase = self.get_new_passphrase()
+        mail = self.get_new_email()
         hashed_passphrase = argon2.using(rounds=4).hash(__passphrase)
-        self.s.add("user", name, hashed_passphrase)
+        self.s.add("user", name, hashed_passphrase, mail)
         out.Output.say("Now you're all set up. Just tell me the passphrase next time I ask you.")
-        return name
+        return name, mail
 
     def verify_user(self):
         '''verify the user's passphrase'''
@@ -41,6 +43,7 @@ class User():
         for item in data:
             name = item[0]
             __passphrase = item[1]
+            mail = item[2]
         self.greet(name)
         out.Output.say("Can you please tell me your passphrase before we get started?")
         while True:
@@ -53,7 +56,7 @@ class User():
                     if argon2.verify(__passinput, __passphrase):
                         out.Output.say(f"I'm so glad you've joined me {name}. "
                                         "Just let me know if you need anything.")
-                        return name
+                        return name, mail
                 out.Output.say("I'm sorry, that was not the correct passphrase. "
                                 "Try again some other time.")
                 sys.exit()
@@ -100,3 +103,10 @@ class User():
             for phrase in affirmative:
                 if phrase in verify:
                     return __pphrase
+
+    def get_new_email(self):
+        '''collect the new user's passphrase'''
+        out.Output.say("I need your email address too."
+                        "Please type it in the console so that I get it correct the first time.")
+        email = input()
+        return email

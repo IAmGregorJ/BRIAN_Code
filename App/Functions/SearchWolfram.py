@@ -1,12 +1,16 @@
 '''imports'''
-import wolframalpha
-import Communication.SpeechIn as ind
+from configparser import ConfigParser
 import Communication.Output as out
+import Communication.SpeechIn as ind
+import wolframalpha
+
 
 class SearchWolfram():
     '''Query Wolfram Alpha for information'''
     def __init__(self):
-        self.__app_id = "LQ7PTH-QRRJ7PGEYJ"
+        config = ConfigParser()
+        config.read("App/secrets.ini")
+        self.__app_id = config.get("wolframalpha", "api_key")
         self.client = wolframalpha.Client(self.__app_id)
 
     def wolfsearch(self):

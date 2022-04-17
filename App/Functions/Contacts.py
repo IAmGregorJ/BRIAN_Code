@@ -1,0 +1,70 @@
+'''imports'''
+from asyncio.windows_events import NULL
+from Communication.DbController import ContactsInfoController as db
+import Communication.Output as out
+import Communication.SpeechIn as ind
+
+class Contact():
+    '''Class to hold the mail object and the functions'''
+    def __init__(self) -> None:
+        '''Constructor'''
+        self.name = ""
+        self.email = ""
+        self.s = db()
+
+    def get_all_contacts(self):
+        '''get the entire contact list'''
+        table = "contacts"
+        contacts = self.s.get_all(table)
+        self.s.close()
+        return contacts
+
+    def show_all_contacts(self):
+        '''print out the contact list to the console'''
+        contacts = self.get_all_contacts()
+        if contacts == 0:
+            out.Output.say("You have no contacts.")
+        else:
+            out.Output.say("Here you go.")
+            for item in contacts:
+                print(str(item[0]) + ": " + item[1])
+        self.s.close()
+
+    def get_contact(self):
+        '''get method'''
+        table = "contacts"
+        while self.email is NULL or self.email == "":
+            out.Output.say("What is the name of the contact?")
+            self.name = ind.SpeechIn.listen()
+            self.email = self.s.get(table, self.name)
+            if self.email is NULL or self.email =="":
+                out.Output.say("I'm sorry, there is no contact by that name."
+                                "Try again.")
+        self.s.close()
+        return self.email
+
+    def add_contact(self):
+        '''add method'''
+        table = "contacts"
+        out.Output.say("What is the name of the contact you'd like to add?")
+        self.name = ind.SpeechIn.listen()
+        out.Output.say("Please type their email address in the window.")
+        self.email = input()
+        self.s.add(table, self.name, self.email)
+        out.Output.say(f"I have added {self.name} to your contacts.")
+        self.s.close()
+        return self.name
+
+    def delete_contact(self):
+        '''delete method'''
+        table = "contacts"
+        while True:
+            out.Output.say("What is the name of the contact you'd like to delete?")
+            self.name = ind.SpeechIn.listen()
+            out.Output.say(f"You said {self.name}, is that correct?")
+            verify = ind.SpeechIn.listen()
+            affirmative = ["yes", "yeah", "yep"]
+            for phrase in affirmative:
+                if phrase in verify:
+                    self.s.delete(table, self.name)
+                    out.Output.say(f"{self.name} has been deleted.")

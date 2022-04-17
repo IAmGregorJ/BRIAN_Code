@@ -10,16 +10,16 @@ from sty import fg, bg
 os.system('clear')
 user = u.User()
 if user.check_user() == 0:
-    user.username = user.create_user()
+    user.username, user.mail = user.create_user()
     user.is_logged_in = True
 else:
-    user.name = user.verify_user()
+    user.username, user.mail = user.verify_user()
     user.is_logged_in = True
 
 while user.is_logged_in:
     os.system('clear')
     print(bg.blue, fg.yellow, "BRIAN initialized", fg.rs, bg.rs)
-    i = ind.SpeechIn()
+    i = ind.SpeechIn(user.mail)
     WAKE = "ok brian"
 
     while True:

@@ -72,6 +72,7 @@ class TodoController(DbController):
         except TypeError:
             return 0
         return data
+
     def add(self, table, text):
         '''add todo to db'''
         # current date formatted: int(current_date.strftime("%Y%m%d%H%M%S")
@@ -79,6 +80,7 @@ class TodoController(DbController):
         self.cursor.execute("INSERT INTO {} (todo, added) VALUES (?, ?)".format(table),
                            (text, added))
         self.db.commit()
+
     def delete(self, table, row_number):
         '''delete todo from db'''
         self.cursor.execute("DELETE FROM {} WHERE id = ?;".format(table), (row_number,))
@@ -125,15 +127,51 @@ class UserInfoController(DbController):
     def get(self, table):
         '''get method'''
         cursor = self.cursor
-        cursor.execute("""SELECT name, passphrase from {}""".format(table))
-        data = self.cursor.fetchall()
+        cursor.execute("""SELECT name, passphrase, email from {}""".format(table))
+        data = self.cursor.fetchone()
         return data
 
-    def add(self, table, name, val):
+    def add(self, table, name, val, mail):
         '''add method'''
-        self.cursor.execute("INSERT INTO {} (name, passphrase) VALUES (?, ?)".format(table),
-                        (name, val))
+        self.cursor.execute("INSERT INTO {} (name, passphrase, email)"
+                            " VALUES (?, ?, ?)".format(table), (name, val, mail))
         self.db.commit()
 
     def delete(self):
         '''delete method'''
+
+class ContactsInfoController(DbController):
+    '''controller to register and get contacts to sent emails to'''
+    #pylint: disable=arguments-differ
+    def count(self,table):
+        '''count to see how many contacts there are'''
+        self.cursor.execute("""SELECT COUNT(*) from {}""".format(table))
+        count = self.cursor.fetchone()[0]
+        return count
+
+    def get_all(self, table):
+        '''get contact list from db'''
+        self.cursor.execute("""SELECT name, email FROM {}""".format(table))
+        try:
+            data = self.cursor.fetchall()
+        except TypeError:
+            return 0
+        return data
+
+    def get(self, table, name):
+        '''get method'''
+        cursor = self.cursor
+        cursor.execute("""SELECT email from {} WHERE name = ?""".format(table), (name,))
+        contact_mail = self.cursor.fetchone()[0]
+        return contact_mail
+
+    def add(self, table, name, mail):
+        '''add method'''
+        self.cursor.execute("INSERT INTO {} (name, email)"
+                            " VALUES (?, ?)".format(table), (name, mail))
+        self.db.commit()
+
+    def delete(self, table, name):
+        '''delete method'''
+        self.cursor.execute("DELETE FROM {} WHERE name = ?".format(table), (name,))
+        self.db.commit()
