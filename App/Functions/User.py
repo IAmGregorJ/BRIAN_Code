@@ -62,7 +62,7 @@ class User():
                         out.Output.say("I'm sorry, that was not the correct passphrase. "
                                 "Try again some other time.")
                         sys.exit()
-                out.Output.say("Go ahead and try again.")
+            out.Output.say("Go ahead and try again.")
 
     def greet(self, username):
         '''greet the user differently depending on when'''
@@ -89,7 +89,7 @@ class User():
                 if phrase in verify:
                     out.Output.say(f"Nice to meet you {name}")
                     return name
-                out.Output.say("So try again and I'll see if I can understand you better.")
+            out.Output.say("So try again and I'll see if I can understand you better.")
 
     def get_new_passphrase(self):
         '''collect the new user's passphrase'''

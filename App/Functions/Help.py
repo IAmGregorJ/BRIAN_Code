@@ -23,6 +23,8 @@ class Help():
                             "See all your contacts"]
         self.status_string = ["Ask me how I'm feeling"]
 
+    def give_help(self):
+        '''the actual help function'''
         out.Output.say("There are many things you can ask me.")
         out.Output.say("For example, you can use several timer functions, such as:")
         for i in self.time_string:

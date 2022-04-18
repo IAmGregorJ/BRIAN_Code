@@ -98,33 +98,16 @@ class SpeechIn:
 
         status_strings = ["how are you",
                             "are you ok"]
-        for phrase in status_strings:
-            if phrase in text:
-                s = st.Status()
-                s.give_status()
-
         time_strings = ["what is the time",
                             "current time",
                             "time is it"]
-        for phrase in time_strings:
-            if phrase in text:
-                tf.TimeFunction.tell_time()
-
         date_strings = ["what is today's date",
                             "what day is it",
                             "current date",
                             "the date"]
-        for phrase in date_strings:
-            if phrase in text:
-                tf.TimeFunction.tell_date()
-
         alarm_strings = ["set an alarm",
                             "wake me up",
                             "wake up"]
-        for phrase in alarm_strings:
-            if phrase in text:
-                tf.TimeFunction.alarm_clock()
-
         exit_strings = ["exit",
                             "end the program",
                             "I'd like to go",
@@ -132,151 +115,196 @@ class SpeechIn:
                             "good bye",
                             "bye bye",
                             "see you later"]
-        for phrase in exit_strings:
-            if phrase in text:
-                sf.SystemFunction.exitapp(user.name)
-
         shutdown_strings = ["turn off",
                             "shut down"]
-        for phrase in shutdown_strings:
-            if phrase in text:
-                sf.SystemFunction.shutdown()
-
         restart_strings = ["restart",
                             "reboot"]
-        for phrase in restart_strings:
-            if phrase in text:
-                sf.SystemFunction.restart()
-
         joke_strings = ["tell me a joke",
                             "something funny",
                             "make me laugh"]
-        for phrase in joke_strings:
-            if phrase in text:
-                joke = sa.Joke()
-                joke.get_joke()
-
         quote_strings = ["inspire me",
                             "give me a quote",
                             "something inspiring",
                             "inspirational"]
-        for phrase in quote_strings:
-            if phrase in text:
-                quote = sa.Quote()
-                quote.get_quote()
-
         show_todo_strings = ["show me my todo",
                             "show my todo",
                             "show the todo"]
-        for phrase in show_todo_strings:
-            if phrase in text:
-                t = todo.Todo()
-                t.show_todo_list()
-
         add_todo_strings = ["add an item",
                             "add a todo",
                             "add another item",
                             "add to my todo",
                             "add to the todo"]
-        for phrase in add_todo_strings:
-            if phrase in text:
-                t = todo.Todo()
-                t.add_todo()
-
         delete_todo_strings = ["delete an item",
                             "delete from the todo",
                             "delete from my todo",
                             "delete something from"]
-        for phrase in delete_todo_strings:
-            if phrase in text:
-                t = todo.Todo()
-                t.delete_todo()
-
         timer_strings = ["start a timer",
                         "start the time",
                         "start timing",
                         "set a timer",
                         "set the timer"]
-        for phrase in timer_strings:
-            if phrase in text:
-                tf.TimeFunction.set_timer()
-
         pomodoro_start_strings = ["start the pomodoro",
                             "begin a pomodoro",
                             "start pomodoro"]
-        for phrase in pomodoro_start_strings:
-            if phrase in text:
-                tf.TimeFunction.run_pomodoro()
-
         pomodoro_stop_strings = ["stop the pomodoro",
                             "stop pomodoro"]
-        for phrase in pomodoro_stop_strings:
-            if phrase in text:
-                tf.TimeFunction.stop_pomodoro()
-
         wikipedia_strings = ["search wikipedia",
-                            "search on wikipedia"
+                            "on wikipedia",
                             "query wikipedia"]
-        for phrase in wikipedia_strings:
-            if phrase in text:
-                w = wp.SearchWikipedia()
-                w.wikisearch()
-
         translate_strings = ["translate something",
                             "to translate",
                             "a translation",
                             "google translate"]
-        for phrase in translate_strings:
-            if phrase in text:
-                t = tr.Translate()
-                t.get_source()
-
         wolfram_strings = ["a question",
                             "wolfram",
                             "ask something"]
-        for phrase in wolfram_strings:
-            if phrase in text:
-                w = wa.SearchWolfram()
-                w.wolfsearch()
-
         email_strings = ["send an email",
                             "send a message",
                             "write a mail",
                             "write an email",
                             "write a message"]
-        for phrase in email_strings:
-            if phrase in text:
-                e = em.Email()
-                e.get_mail_input(user.mail)
-
         add_contact_strings = ["add a contact",
                             "a new contact"]
-        for phrase in add_contact_strings:
-            if phrase in text:
-                c = ct.Contact()
-                c.add_contact()
-
         delete_contact_strings = ["delete a contact",
                             "delete contact",
                             "remove a contact",
                             "remove contact",
                             "get rid of a contact"]
+        show_all_contacts_strings = ["my contacts",
+                            "all contacts"]
+        help_strings = ["need some help",
+                            "need help",
+                            "what can I say",
+                            "what can you do"]
+        if not any(text in x for x in (
+                                    status_strings,
+                                    time_strings,
+                                    date_strings,
+                                    alarm_strings,
+                                    exit_strings,
+                                    shutdown_strings,
+                                    restart_strings,
+                                    joke_strings,
+                                    quote_strings,
+                                    show_todo_strings,
+                                    add_todo_strings,
+                                    delete_todo_strings,
+                                    timer_strings,
+                                    pomodoro_start_strings,
+                                    pomodoro_stop_strings,
+                                    wikipedia_strings,
+                                    translate_strings,
+                                    wolfram_strings,
+                                    email_strings,
+                                    add_contact_strings,
+                                    delete_contact_strings,
+                                    show_all_contacts_strings,
+                                    help_strings
+                                )):
+            out.Output.say("I'm sorry, I don't understand")
+
+        for phrase in alarm_strings:
+            if phrase in text:
+                tf.TimeFunction.alarm_clock()
+
+        for phrase in status_strings:
+            if phrase in text:
+                s = st.Status()
+                s.give_status()
+
+        for phrase in time_strings:
+            if phrase in text:
+                tf.TimeFunction.tell_time()
+
+        for phrase in date_strings:
+            if phrase in text:
+                tf.TimeFunction.tell_date()
+
+        for phrase in exit_strings:
+            if phrase in text:
+                sf.SystemFunction.exitapp(user.name)
+
+        for phrase in shutdown_strings:
+            if phrase in text:
+                sf.SystemFunction.shutdown()
+
+        for phrase in restart_strings:
+            if phrase in text:
+                sf.SystemFunction.restart()
+
+        for phrase in joke_strings:
+            if phrase in text:
+                joke = sa.Joke()
+                joke.get_joke()
+
+        for phrase in quote_strings:
+            if phrase in text:
+                quote = sa.Quote()
+                quote.get_quote()
+
+        for phrase in show_todo_strings:
+            if phrase in text:
+                t = todo.Todo()
+                t.show_todo_list()
+
+        for phrase in add_todo_strings:
+            if phrase in text:
+                t = todo.Todo()
+                t.add_todo()
+
+        for phrase in delete_todo_strings:
+            if phrase in text:
+                t = todo.Todo()
+                t.delete_todo()
+
+        for phrase in timer_strings:
+            if phrase in text:
+                tf.TimeFunction.set_timer()
+
+        for phrase in pomodoro_start_strings:
+            if phrase in text:
+                tf.TimeFunction.run_pomodoro()
+
+        for phrase in pomodoro_stop_strings:
+            if phrase in text:
+                tf.TimeFunction.stop_pomodoro()
+
+        for phrase in wikipedia_strings:
+            if phrase in text:
+                w = wp.SearchWikipedia()
+                w.wikisearch()
+
+        for phrase in translate_strings:
+            if phrase in text:
+                t = tr.Translate()
+                t.get_source()
+
+        for phrase in wolfram_strings:
+            if phrase in text:
+                w = wa.SearchWolfram()
+                w.wolfsearch()
+
+        for phrase in email_strings:
+            if phrase in text:
+                e = em.Email()
+                e.get_mail_input(user.mail)
+
+        for phrase in add_contact_strings:
+            if phrase in text:
+                c = ct.Contact()
+                c.add_contact()
+
         for phrase in delete_contact_strings:
             if phrase in text:
                 c = ct.Contact()
                 c.delete_contact()
 
-        show_all_contacts_strings = ["my contacts",
-                            "all contacts"]
         for phrase in show_all_contacts_strings:
             if phrase in text:
                 c = ct.Contact()
                 c.show_all_contacts()
 
-        help_strings = ["need some help",
-                            "need help",
-                            "what can I say",
-                            "what can you do"]
         for phrase in help_strings:
             if phrase in text:
-                hl.Help()
+                h = hl.Help()
+                h.give_help()
