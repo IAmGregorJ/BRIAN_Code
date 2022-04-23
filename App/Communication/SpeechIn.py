@@ -87,11 +87,6 @@ class SpeechIn:
     def interpret(user, text):
         '''the intents engine neuralintents died - this is the result'''
 
-        # What happens if you use two "code words" in the same sentence??
-        # "Multiple if's means your code would go and check all the if conditions,
-        # where as in case of elif, if one if condition satisfies
-        # it would not check other conditions.."
-
         #remove punctuation
         translator = str.maketrans('', '', string.punctuation)
         text = text.translate(translator)
