@@ -220,5 +220,16 @@ class TestDatabase(unittest.TestCase):
         self.assertTrue(c.count(table) == number - 1)
         del c
 
+    def test_modify_contact(self):
+        '''testing to see that modifying a contact works'''
+        table = "testcontacts"
+        c = ContactsInfoController()
+        name = "Daniel"
+        new_mail = "new@mail.com"
+        c.modify(table, new_mail, name)
+        contact_mail = c.get(table, name)
+        self.assertTrue(contact_mail == "new@mail.com")
+        del c
+
 if __name__ == '__main__':
     unittest.main()

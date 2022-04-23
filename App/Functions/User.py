@@ -1,10 +1,15 @@
 '''imports'''
 import datetime
+import os
+import re
+import shutil
 import sys
+from pathlib import Path
 import Communication.Output as out
 import Communication.SpeechIn as ind
 from Communication.DbController import UserInfoController as db
 from passlib.hash import argon2
+
 
 class User():
     '''Functions related to the user'''
@@ -41,10 +46,7 @@ class User():
         '''verify the user's passphrase'''
         data = self.get_user()
         (name, __passphrase, mail) = data
-        # for item in data:
-        #     name = item[0]
-        #     __passphrase = item[1]
-        #     mail = item[2]
+        d_day = datetime.date(2022,6,14)
         self.greet(name)
         out.Output.say("Can you please tell me your passphrase before we get started?")
         while True:
@@ -55,13 +57,16 @@ class User():
             for phrase in affirmative:
                 if phrase in verify:
                     if argon2.verify(__passinput, __passphrase):
-                        out.Output.say(f"I'm so glad you've joined me {name}. "
-                                        "Just let me know if you need anything.")
+                        if datetime.date.today() == d_day:
+                            out.Output.say(f"Welcome {name}. "
+                                            "Today's session is sponsored by the number 12.")
+                        else:
+                            out.Output.say(f"I'm so glad you've joined me {name}. "
+                                            "Just let me know if you need anything.")
                         return name, mail
-                    else:
-                        out.Output.say("I'm sorry, that was not the correct passphrase. "
-                                "Try again some other time.")
-                        sys.exit()
+                    out.Output.say("I'm sorry, that was not the correct passphrase. "
+                            "Try again some other time.")
+                    sys.exit()
             out.Output.say("Go ahead and try again.")
 
     def greet(self, username):
@@ -94,7 +99,7 @@ class User():
     def get_new_passphrase(self):
         '''collect the new user's passphrase'''
         out.Output.say("Now we have to make a passphrase. "
-                        "Give me four random words that you will remember")
+                        "Give me four random words that you will remember.")
         while True:
             __pphrase = ind.SpeechIn.listen()
             while len(__pphrase.split()) != 4:
@@ -109,7 +114,39 @@ class User():
 
     def get_new_email(self):
         '''collect the new user's passphrase'''
-        out.Output.say("I need your email address too."
+        out.Output.say("Ok, I need your email address. "
+                        "Don't worry, I won't be sharing it with anyone. \n"
                         "Please type it in the console so that I get it correct the first time.")
         email = input("> ")
+        self.get_smtp_info()
         return email
+
+    def get_smtp_info(self):
+        '''collect smtp credentials'''
+        out.Output.say("Please write the address to your smtp server.")
+        smtp = input("> ")
+        out.Output.say("Which port number does your smtp server use?")
+        port = input("> ")
+        out.Output.say("Now I need your smtp username.")
+        username = input("> ")
+        out.Output.say("And finally, please type your smtp password.")
+        passwd = input("> ")
+        self.write_smtp_info(smtp, port, username, passwd)
+
+    def write_smtp_info(self, smtp, port, username, passwd):
+        '''write smtp credentials'''
+        tf = open('tmp', 'a+') #pylint:disable=unspecified-encoding
+        f = Path(__file__).resolve().parents[1]
+        f= f / 'secrets.ini'
+
+        with open(f) as x: #pylint:disable=unspecified-encoding
+            for line in x.readlines():
+                line = re.sub('smtp_server=.*', 'smtp_server='+smtp, line)
+                line = re.sub('smtp_port=.*', 'smtp_port='+port, line)
+                line = re.sub('smtp_user.*', 'smtp_user='+username, line)
+                line = re.sub('smtp_pass.*', 'smtp_pass='+passwd, line)
+                tf.write(line)
+        tf.close()
+        x.close()
+        shutil.copy('tmp', f)
+        os.remove('tmp')

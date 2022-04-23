@@ -15,7 +15,8 @@ from Functions import (
     CommandLogs as cl,
     Email as em,
     Contacts as ct,
-    Help as hl
+    Help as hl,
+    User as u
 )
 from sty import fg
 
@@ -151,20 +152,25 @@ class SpeechIn:
         wikipedia_strings = ["search wikipedia",
                             "on wikipedia",
                             "query wikipedia"]
-        translate_strings = ["translate something",
-                            "to translate",
+        translate_strings = ["to translate",
                             "a translation",
                             "google translate"]
         wolfram_strings = ["a question",
                             "wolfram",
                             "ask something"]
         email_strings = ["send an email",
+                            "send a mail",
                             "send a message",
                             "write a mail",
                             "write an email",
                             "write a message"]
+        change_email_strings = ["change my email",
+                            "change my address",
+                            "email address"]
         add_contact_strings = ["add a contact",
                             "a new contact"]
+        modify_contact_strings = ["edit a contact",
+                            "modify a contact"]
         delete_contact_strings = ["delete a contact",
                             "delete contact",
                             "remove a contact",
@@ -176,31 +182,39 @@ class SpeechIn:
                             "need help",
                             "what can I say",
                             "what can you do"]
-        if not any(text in x for x in (
-                                    status_strings,
-                                    time_strings,
-                                    date_strings,
-                                    alarm_strings,
-                                    exit_strings,
-                                    shutdown_strings,
-                                    restart_strings,
-                                    joke_strings,
-                                    quote_strings,
-                                    show_todo_strings,
-                                    add_todo_strings,
-                                    delete_todo_strings,
-                                    timer_strings,
-                                    pomodoro_start_strings,
-                                    pomodoro_stop_strings,
-                                    wikipedia_strings,
-                                    translate_strings,
-                                    wolfram_strings,
-                                    email_strings,
-                                    add_contact_strings,
-                                    delete_contact_strings,
-                                    show_all_contacts_strings,
-                                    help_strings
-                                )):
+
+        number = 0
+        for x in (
+                    status_strings,
+                    time_strings,
+                    date_strings,
+                    alarm_strings,
+                    exit_strings,
+                    shutdown_strings,
+                    restart_strings,
+                    joke_strings,
+                    quote_strings,
+                    show_todo_strings,
+                    add_todo_strings,
+                    delete_todo_strings,
+                    timer_strings,
+                    pomodoro_start_strings,
+                    pomodoro_stop_strings,
+                    wikipedia_strings,
+                    translate_strings,
+                    wolfram_strings,
+                    email_strings,
+                    change_email_strings,
+                    add_contact_strings,
+                    modify_contact_strings,
+                    delete_contact_strings,
+                    show_all_contacts_strings,
+                    help_strings
+                ):
+            for phrase in x:
+                if phrase in text:
+                    number = number + 1
+        if number == 0:
             out.Output.say("I'm sorry, I don't understand")
 
         for phrase in alarm_strings:
@@ -289,10 +303,20 @@ class SpeechIn:
                 e = em.Email()
                 e.get_mail_input(user.mail)
 
+        for phrase in change_email_strings:
+            if phrase in text:
+                e = u.User()
+                e.get_new_email()
+
         for phrase in add_contact_strings:
             if phrase in text:
                 c = ct.Contact()
                 c.add_contact()
+
+        for phrase in modify_contact_strings:
+            if phrase in text:
+                c = ct.Contact()
+                c.modify_contact()
 
         for phrase in delete_contact_strings:
             if phrase in text:

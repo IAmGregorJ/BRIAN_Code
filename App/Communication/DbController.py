@@ -10,6 +10,7 @@ class DbController(ABC):
     def __init__(self):
         self.db = sqlite3.connect("App/Ressources/BRIAN.db")
         self.cursor = self.db.cursor()
+
     def close(self):
         '''closing the connection'''
         self.cursor.close()
@@ -175,3 +176,9 @@ class ContactsInfoController(DbController):
         '''delete method'''
         self.cursor.execute("DELETE FROM {} WHERE name = ?".format(table), (name,))
         self.db.commit()
+
+    def modify(self, table, mail, name):
+        '''modify method'''
+        self.cursor.execute("UPDATE {} SET email = ? WHERE name = ?".format(table), (mail, name))
+        self.db.commit()
+        

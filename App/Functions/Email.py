@@ -15,8 +15,10 @@ class Email():
         '''Constructor'''
         config = ConfigParser()
         config.read("App/secrets.ini")
-        self.gmail_password = config.get("google", "smtp_pass")
-        self.gmail_user = config.get("google", "gmail_user")
+        self.mail_password = config.get("smtp", "smtp_pass")
+        self.mail_user = config.get("smtp", "smtp_user")
+        self.mail_server = config.get("smtp", "smtp_server")
+        self.mail_port = config.get("smtp", "smtp_port")
         self.sent_from = ""
         self.send_to = ""
         self.subject = ""
@@ -52,9 +54,9 @@ class Email():
         message.attach(MIMEText(body, 'plain'))
         #Create SMTP session for sending the mail
         try:
-            session = smtplib.SMTP('smtp.gmail.com', 587)
+            session = smtplib.SMTP(self.mail_server, self.mail_port)
             session.starttls() #enable security
-            session.login(self.gmail_user, self.gmail_password)
+            session.login(self.mail_user, self.mail_password)
             text = message.as_string()
             session.sendmail(sent_from, receiver, text)
             session.quit()
@@ -62,5 +64,6 @@ class Email():
         except smtplib.SMTPAuthenticationError:
             out.Output.say("There is something wrong with your smtp username or password")
         except Exception as ex: #pylint: disable=broad-except
+            out.Output.say("An error occured while trying to send your mail.")
             print(ex)
         

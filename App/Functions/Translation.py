@@ -21,7 +21,10 @@ class Translate():
                         f"{self.get_key_from_value('ta')}, {self.get_key_from_value('el')}, "
                         f"{self.get_key_from_value('uk')} or {self.get_key_from_value('ar')}")
         lang = ind.SpeechIn.listen()
-        val = self.languages[lang]
+        try:
+            val = self.languages[lang]
+        except KeyError:
+            out.Output.say("I'm sorry, that wasn't one of the choices.")
         result = self.get_target(val, source)
         out.Output.say(result, val)
 

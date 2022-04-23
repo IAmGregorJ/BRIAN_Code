@@ -1,4 +1,5 @@
 '''imports'''
+import rsa
 from Communication.DbController import ContactsInfoController as db
 import Communication.Output as out
 import Communication.SpeechIn as ind
@@ -10,6 +11,10 @@ class Contact():
         self.name = ""
         self.email = ""
         self.s = db()
+        with open("App/public_key", "rb") as pbf:
+            self.publicKey = rsa.PublicKey.load_pkcs1(pbf.read())
+        with open("App/private_key", "rb") as pvf:
+            self.privateKey = rsa.PrivateKey.load_pkcs1(pvf.read())
 
     def get_all_contacts(self):
         '''get the entire contact list'''
@@ -26,7 +31,8 @@ class Contact():
         else:
             out.Output.say("Here you go.")
             for item in contacts:
-                print(str(item[0]) + ": " + item[1])
+                print(str(item[0]) + ": " +
+                    rsa.decrypt(item[1], self.privateKey).decode())
         self.s.close()
 
     def get_contact(self):
@@ -40,6 +46,7 @@ class Contact():
                 out.Output.say("I'm sorry, there is no contact by that name."
                                 "Try again.")
         self.s.close()
+        self.email = rsa.decrypt(self.email, self.privateKey).decode()
         return self.email
 
     def add_contact(self):
@@ -49,6 +56,7 @@ class Contact():
         self.name = ind.SpeechIn.listen()
         out.Output.say("Please type their email address in the window.")
         self.email = input("> ")
+        self.email = rsa.encrypt(self.email.encode(), self.publicKey)
         self.s.add(table, self.name, self.email)
         out.Output.say(f"I have added {self.name} to your contacts.")
         self.s.close()
@@ -67,3 +75,20 @@ class Contact():
                 if phrase in verify:
                     self.s.delete(table, self.name)
                     out.Output.say(f"{self.name} has been deleted.")
+
+    def modify_contact(self):
+        '''modify method'''
+        table = "contacts"
+        while self.email is None or self.email == "":
+            out.Output.say("What is the name of the contact who's email you'd like to change?")
+            self.name = ind.SpeechIn.listen()
+            self.email = self.s.get(table, self.name)
+            if self.email is None or self.email =="":
+                out.Output.say("I'm sorry, there is no contact by that name."
+                                "Try again.")
+        out.Output.say("Please enter their new email address.")
+        self.email = input("> ")
+        self.email = rsa.encrypt(self.email.encode(), self.publicKey)
+        self.s.modify(table, self.email, self.name)
+        out.Output.say("Their email has now been changed.")
+        self.s.close()

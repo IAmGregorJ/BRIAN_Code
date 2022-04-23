@@ -20,6 +20,7 @@ class Help():
                             "Shut down your computer"]
         self.contacts_string = ["Add people to your contacts list",
                             "Delete people from your contacts list",
+                            "Modify a contact",
                             "See all your contacts"]
         self.status_string = ["Ask me how I'm feeling"]
 
@@ -28,21 +29,21 @@ class Help():
         out.Output.say("There are many things you can ask me.")
         out.Output.say("For example, you can use several timer functions, such as:")
         for i in self.time_string:
-            out.Output.say("\t", i)
+            out.Output.say(f"\t{i}")
         out.Output.say("You can also manage your to-do list:")
         for i in self.todo_string:
-            out.Output.say("\t", i)
+            out.Output.say(f"\t{i}")
         out.Output.say("You can manage a contact list:")
         for i in self.contacts_string:
-            out.Output.say("\t", i)
+            out.Output.say(f"\t{i}")
         out.Output.say("And you can also send an email to anyone on your contact list.")
         out.Output.say("There are also many other things you can do, like:")
         for i in self.sayings_string:
-            out.Output.say("\t", i)
+            out.Output.say(f"\t{i}")
         for i in self.questions_string:
-            out.Output.say("\t", i)
+            out.Output.say(f"\t{i}")
         for i in self.translate_string:
-            out.Output.say("\t", i)
+            out.Output.say(f"\t{i}")
         for i in self.shutdown_string:
-            out.Output.say("\t", i)
+            out.Output.say(f"\t{i}")
         out.Output.say("And finally, you can also just ask me how I'm feeling.")

@@ -1,0 +1,34 @@
+"filename", "language", "Python", "pip requirements", "JSON", "comment", "blank", "total"
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Communication/DbController.py", "Python", 131, 0, 0, 28, 19, 178
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Communication/Output.py", "Python", 50, 0, 0, 0, 6, 56
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Communication/SpeechIn.py", "Python", 247, 0, 0, 31, 34, 312
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Communication/__init__.py", "Python", 0, 0, 0, 0, 1, 1
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/CommandLogs.py", "Python", 17, 0, 0, 0, 2, 19
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/Contacts.py", "Python", 63, 0, 0, 0, 7, 70
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/Email.py", "Python", 57, 0, 0, 4, 5, 66
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/Help.py", "Python", 46, 0, 0, 0, 3, 49
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/Sayings.py", "Python", 37, 0, 0, 0, 4, 41
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/SearchWikipedia.py", "Python", 25, 0, 0, 0, 5, 30
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/SearchWolfram.py", "Python", 24, 0, 0, 0, 5, 29
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/Status.py", "Python", 32, 0, 0, 6, 4, 42
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/SystemFunctions.py", "Python", 39, 0, 0, 0, 5, 44
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/TimeFunctions.py", "Python", 165, 0, 0, 1, 16, 182
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/Todos.py", "Python", 50, 0, 0, 0, 2, 52
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/Translation.py", "Python", 36, 0, 0, 0, 5, 41
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/User.py", "Python", 101, 0, 0, 4, 11, 116
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Functions/__init__.py", "Python", 0, 0, 0, 0, 1, 1
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/Ressources/intents.json", "JSON", 0, 0, 30, 0, 0, 30
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/brian.py", "Python", 35, 0, 0, 2, 4, 41
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/requirements.txt", "pip requirements", 0, 38, 0, 0, 1, 39
+"/home/gregorj/Documents/Thesis/BRIAN_Code/App/tests.py", "Python", 193, 0, 0, 12, 20, 225
+"/home/gregorj/Documents/Thesis/BRIAN_Code/Prototype/basic_functions.py", "Python", 204, 0, 0, 6, 34, 244
+"/home/gregorj/Documents/Thesis/BRIAN_Code/Prototype/intents.json", "JSON", 0, 0, 27, 0, 0, 27
+"/home/gregorj/Documents/Thesis/BRIAN_Code/Prototype/tts test gtts.py", "Python", 28, 0, 0, 20, 9, 57
+"/home/gregorj/Documents/Thesis/BRIAN_Code/Prototype/tts test speechrecog.py", "Python", 3, 0, 0, 0, 0, 3
+"/home/gregorj/Documents/Thesis/BRIAN_Code/Scripts/BRIAN_GANTT.ipynb", "JSON", 0, 0, 259, 0, 1, 260
+"/home/gregorj/Documents/Thesis/BRIAN_Code/Scripts/BRIAN_Questionnaire.ipynb", "JSON", 0, 0, 782, 0, 1, 783
+"/home/gregorj/Documents/Thesis/BRIAN_Code/Scripts/BRIAN_wordcloud.ipynb", "JSON", 0, 0, 139, 0, 1, 140
+"/home/gregorj/Documents/Thesis/BRIAN_Code/Scripts/inspirationalQuotesScraper.py", "Python", 27, 0, 0, 1, 9, 37
+"/home/gregorj/Documents/Thesis/BRIAN_Code/Scripts/onelinersScraper.py", "Python", 33, 0, 0, 1, 8, 42
+"/home/gregorj/Documents/Thesis/BRIAN_Code/requirements.txt", "pip requirements", 0, 11, 0, 0, 1, 12
+"Total", "-", 1643, 49, 1237, 116, 224, 3269

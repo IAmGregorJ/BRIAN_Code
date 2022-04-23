@@ -1,4 +1,5 @@
 '''imports'''
+import re
 from configparser import ConfigParser
 import Communication.Output as out
 import Communication.SpeechIn as ind
@@ -18,6 +19,8 @@ class SearchWolfram():
         out.Output.say("What's your question?")
         question= ind.SpeechIn.listen()
         result = self.get_wolf_results(question)
+        # remove everything in parentesis, because that gave some weird speech
+        result = re.sub(r"\([^()]*\)", "", result)
         out.Output.say(result)
 
     def get_wolf_results(self, question):

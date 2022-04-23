@@ -7,7 +7,7 @@ import Communication.Output as out
 import Functions.User as u
 from sty import fg, bg
 
-os.system('clear')
+#os.system('clear')
 user = u.User()
 if user.check_user() == 0:
     user.username, user.mail = user.create_user()
