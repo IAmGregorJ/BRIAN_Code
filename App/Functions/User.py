@@ -9,6 +9,7 @@ import Communication.Output as out
 import Communication.SpeechIn as ind
 from Communication.DbController import UserInfoController as db
 from passlib.hash import argon2
+from sty import fg
 
 
 class User():
@@ -117,20 +118,20 @@ class User():
         out.Output.say("Ok, I need your email address. "
                         "Don't worry, I won't be sharing it with anyone. \n"
                         "Please type it in the console so that I get it correct the first time.")
-        email = input("> ")
+        email = input(fg.green, "> ", fg.rs)
         self.get_smtp_info()
         return email
 
     def get_smtp_info(self):
         '''collect smtp credentials'''
         out.Output.say("Please write the address to your smtp server.")
-        smtp = input("> ")
+        smtp = input(fg.green, "> ", fg.rs)
         out.Output.say("Which port number does your smtp server use?")
-        port = input("> ")
+        port = input(fg.green, "> ", fg.rs)
         out.Output.say("Now I need your smtp username.")
-        username = input("> ")
+        username = input(fg.green, "> ", fg.rs)
         out.Output.say("And finally, please type your smtp password.")
-        passwd = input("> ")
+        passwd = input(fg.green, "> ", fg.rs)
         self.write_smtp_info(smtp, port, username, passwd)
 
     def write_smtp_info(self, smtp, port, username, passwd):

@@ -178,37 +178,18 @@ class SpeechIn:
                             "what can I say",
                             "what can you do"]
 
+        lists = []
+        a = vars().copy()
+        for i in a:
+            if '_strings' in i:
+                lists.append(a[i])
+
         number = 0
-        for x in (
-                    status_strings,
-                    time_strings,
-                    date_strings,
-                    alarm_strings,
-                    exit_strings,
-                    shutdown_strings,
-                    restart_strings,
-                    joke_strings,
-                    quote_strings,
-                    show_todo_strings,
-                    add_todo_strings,
-                    delete_todo_strings,
-                    timer_strings,
-                    pomodoro_start_strings,
-                    pomodoro_stop_strings,
-                    wikipedia_strings,
-                    translate_strings,
-                    wolfram_strings,
-                    email_strings,
-                    change_email_strings,
-                    add_contact_strings,
-                    modify_contact_strings,
-                    delete_contact_strings,
-                    show_all_contacts_strings,
-                    help_strings
-                ):
-            for phrase in x:
+
+        for lst in (lists):
+            for phrase in lst:
                 if phrase in text:
-                    number = number + 1
+                    number += 1
         if number == 0:
             out.Output.say("I'm sorry, I don't understand")
 

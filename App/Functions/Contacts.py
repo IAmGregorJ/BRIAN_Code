@@ -3,6 +3,7 @@ import rsa
 from Communication.DbController import ContactsInfoController as db
 import Communication.Output as out
 import Communication.SpeechIn as ind
+from sty import fg
 
 class Contact():
     '''Class to hold the mail object and the functions'''
@@ -55,7 +56,7 @@ class Contact():
         out.Output.say("What is the name of the contact you'd like to add?")
         self.name = ind.SpeechIn.listen()
         out.Output.say("Please type their email address in the window.")
-        self.email = input("> ")
+        self.email = input(fg.green, "> ", fg.rs)
         self.email = rsa.encrypt(self.email.encode(), self.publicKey)
         self.s.add(table, self.name, self.email)
         out.Output.say(f"I have added {self.name} to your contacts.")
@@ -87,7 +88,7 @@ class Contact():
                 out.Output.say("I'm sorry, there is no contact by that name."
                                 "Try again.")
         out.Output.say("Please enter their new email address.")
-        self.email = input("> ")
+        self.email = input(fg.green, "> ", fg.rs)
         self.email = rsa.encrypt(self.email.encode(), self.publicKey)
         self.s.modify(table, self.email, self.name)
         out.Output.say("Their email has now been changed.")
