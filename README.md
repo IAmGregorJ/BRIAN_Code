@@ -7,6 +7,6 @@ Unfortunately, as of this version, a keyboard is still necessary in order to acc
 
 BRIAN does require the user to "log on" at startup using a passphrase. This is a minor inconvenience intended to prevent just anyone from accessing the user's personal information.
 
-BRIAN was created as a final project, and therefore some of the functions may have been overcomplicated in order to impress the judges. At the same time, the development period was very short (approximately 8 weeks), and there is no doubt in the author's mind that there are many things that could have been done better. Much better, in fact.
+BRIAN was created as a final project, my FIRST Python project actually, and therefore some of the functions may have been overcomplicated in order to impress the judges. At the same time, the development period was very short (approximately 8 weeks), and there is no doubt in the author's mind that there are many things that could have been done better. Much better, in fact.
 
 In any case, here's the code. Anyone is more than welcome to modify, adapt, do whatever with the code, but please give me credit for the base project.
