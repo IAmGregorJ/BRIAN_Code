@@ -12,6 +12,7 @@ class Contact():
         self.name = ""
         self.email = ""
         self.s = db()
+        # read the public and private keys into memory
         with open("App/public_key", "rb") as pbf:
             self.publicKey = rsa.PublicKey.load_pkcs1(pbf.read())
         with open("App/private_key", "rb") as pvf:

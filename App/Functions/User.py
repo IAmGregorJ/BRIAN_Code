@@ -47,6 +47,7 @@ class User():
         '''verify the user's passphrase'''
         data = self.get_user()
         (name, __passphrase, mail) = data
+        # TODO remove this variable in the version to be turned in
         d_day = datetime.date(2022,6,14)
         self.greet(name)
         out.Output.say("Can you please tell me your passphrase before we get started?")
@@ -58,6 +59,7 @@ class User():
             for phrase in affirmative:
                 if phrase in verify:
                     if argon2.verify(__passinput, __passphrase):
+                        # TODO remove this in the version to be turned in
                         if datetime.date.today() == d_day:
                             out.Output.say(f"Welcome {name}. "
                                             "Today's session is sponsored by the number 12.")

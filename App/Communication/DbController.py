@@ -25,28 +25,6 @@ class DbController(ABC):
     def delete(self):
         '''delete method'''
 
-# class DbController:
-#     '''class defining the connection and cursor'''
-#     __instance__ = None
-
-#     def __init__(self):
-#         '''Constructor'''
-#         if DbController.__instance__ is None:
-#             DbController.__instance__ = self
-#             self.db = sqlite3.connect("App/Ressources/BRIAN.db")
-#             self.cursor = self.db.cursor()
-#         else:
-#             raise Exception("You cannot create another DbController class")
-#     def close(self):
-#         '''closing the connection'''
-#         self.cursor.close()
-#     @staticmethod
-#     def get_instance():
-#         ''' Static method to fetch the current instance. '''
-#         if not DbController.__instance__:
-#             DbController()
-#             return DbController.__instance__
-
 class SayingController(DbController):
     '''controller to get saying from the db'''
     #pylint: disable=arguments-differ
@@ -60,7 +38,6 @@ class SayingController(DbController):
         '''add method'''
     def delete(self):
         '''delete method'''
-
 
 class TodoController(DbController):
     '''controller to CRUD todo list'''

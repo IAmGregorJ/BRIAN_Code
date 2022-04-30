@@ -10,6 +10,7 @@ class SearchWolfram():
     '''Query Wolfram Alpha for information'''
     def __init__(self):
         config = ConfigParser()
+        # read the api key into memory
         config.read("App/secrets.ini")
         self.__app_id = config.get("wolframalpha", "api_key")
         self.client = wolframalpha.Client(self.__app_id)
@@ -19,7 +20,7 @@ class SearchWolfram():
         out.Output.say("What's your question?")
         question= ind.SpeechIn.listen()
         result = self.get_wolf_results(question)
-        # remove everything in parentesis, because that gave some weird speech
+        # remove everything in parenthesis, because that gave some weird speech
         result = re.sub(r"\([^()]*\)", "", result)
         out.Output.say(result)
 

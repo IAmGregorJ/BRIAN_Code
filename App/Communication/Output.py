@@ -9,6 +9,7 @@ from Functions import TimeFunctions as tf
 class Output:
     '''used for speaking results'''
     def __init__(self):
+        # output is saved to a file and played
         self.filename = "voice.mp3"
 
     @staticmethod

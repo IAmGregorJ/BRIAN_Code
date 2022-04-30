@@ -19,6 +19,7 @@ class Joke(Saying):
         '''child constructor'''
         Saying.__init__(self)
         table = "jokes"
+        # number of lines in the table, max value
         m = 670
         self.joke = self.get_saying(table, m)
     def get_joke(self):
@@ -32,6 +33,7 @@ class Quote(Saying):
         '''child constructor'''
         Saying.__init__(self)
         table = "quotes"
+        # number of lines in the table, max value
         m = 369
         self.quote = self.get_saying(table, m)
     def get_quote(self):

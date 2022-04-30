@@ -9,6 +9,7 @@ warnings.filterwarnings('ignore')
 class SearchWikipedia():
     '''Query Wikipedia for items'''
     def __init__(self):
+        # limit the number of sentences so the answer is not too long
         self.sentences = 2
 
     def wikisearch(self):
@@ -23,8 +24,10 @@ class SearchWikipedia():
         try:
             result = wikipedia.summary(query, sentences = self.sentences)
         except wikipedia.DisambiguationError as derr:
+            # when there's too many results
             result = wikipedia.summary(derr.options[0], sentences = self.sentences)
         except wikipedia.PageError:
+            # when there's no results
             result = f"there were no results for {query}"
         return str(result)
     

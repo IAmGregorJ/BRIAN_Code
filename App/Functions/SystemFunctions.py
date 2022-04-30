@@ -13,6 +13,7 @@ class SystemFunction:
     @staticmethod
     def exitapp(name):
         '''exit the app'''
+        # TODO remove this in the version that's to be handed in
         if datetime.now() == datetime(2022,6,14):
             message = f"Super, {name}. Good luck, I hope you get a 12!"
         else:

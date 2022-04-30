@@ -8,12 +8,12 @@ import Communication.SpeechIn as ind
 from Functions import Contacts
 
 # pylint: disable=consider-using-f-string
-
 class Email():
     '''Class to hold the mail object and the functions'''
     def __init__(self) -> None:
         '''Constructor'''
         config = ConfigParser()
+        # read the email credentials into memory
         config.read("App/secrets.ini")
         self.mail_password = config.get("smtp", "smtp_pass")
         self.mail_user = config.get("smtp", "smtp_user")

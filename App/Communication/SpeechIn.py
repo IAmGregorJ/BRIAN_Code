@@ -25,6 +25,7 @@ from sty import fg
 class SpeechIn:
     '''used to listen, hear and speak'''
     def __init__(self) -> None:
+        # connection checked on instantiation at the beginning of program
         url = "http://www.google.com"
         timeout = 5
         self.recon = sr.Recognizer()
@@ -41,9 +42,10 @@ class SpeechIn:
         filename = ("voice.mp3")
         with sr.Microphone() as source:
             if os.path.exists(filename):
+                # needs to sleep to avoid system's speech being used as input
                 time.sleep(10)
             recon.adjust_for_ambient_noise(source, duration=0.5)
-            audio = recon.listen(source)
+            audio = recon.listen(source, phrase_time_limit=5)
             said = ""
             try:
                 said = recon.recognize_google(audio)
@@ -51,8 +53,10 @@ class SpeechIn:
                 print("")
                 print(fg.green, tm, said, fg.rs)
             except sr.UnknownValueError:
+                # non-speech
                 pass
             except sr.RequestError as ex:
+                # usually a connection error
                 print(f"The Google speech recognition API was unreachable; {format(ex)}")
             return said.lower()
 
@@ -61,11 +65,13 @@ class SpeechIn:
         '''same as hear but with better text recognition'''
         recon = sr.Recognizer()
         with sr.Microphone() as source:
+            # no sleep here because dictation can be long
             recon.adjust_for_ambient_noise(source, duration=0.5)
             audio = recon.listen(source)
             said = ""
             try:
                 said = recon.recognize_google(audio, language="en-CA")
+                # allow dictation of punctuation
                 for punct in ((" comma", ","),
                             (" period", "."),
                             (" exclamation point", "!"),
@@ -73,7 +79,7 @@ class SpeechIn:
                             (" new line", "\n")):
                     said = said.replace(*punct)
                     tm = tf.TimeFunction.print_time()
-                print(fg.blue, tm, said, fg.rs) #should be removed once tested
+                print(fg.blue, tm, said, fg.rs)
             except sr.UnknownValueError as ex:
                 print("No sound received: " + str(ex))
             except sr.RequestError as ex:
@@ -83,6 +89,7 @@ class SpeechIn:
     @staticmethod
     def log_command(text):
         '''logs the commands'''
+        # not sure this function should be HERE; but it is used by interpret
         c = cl.CommandLog()
         c.add_command(text)
         del c
@@ -91,7 +98,6 @@ class SpeechIn:
     @staticmethod
     def interpret(user, text):
         '''the intents engine neuralintents died - this is the result'''
-
         #remove punctuation
         translator = str.maketrans('', '', string.punctuation)
         text = text.translate(translator)
@@ -183,19 +189,20 @@ class SpeechIn:
                             "what can I say",
                             "what can you do"]
 
-        lists = []
+        lists = [] # all lists following naming convention read into list of lists
         a = vars().copy()
         for i in a:
             if '_strings' in i:
                 lists.append(a[i])
 
-        number = 0
+        number = 0 # counter for the number of 'true'
 
         for lst in (lists):
             for phrase in lst:
                 if phrase in text:
                     number += 1
         if number == 0:
+            # if at least 1 is true, then the system understands
             out.Output.say("I'm sorry, I don't understand")
 
         for phrase in alarm_strings:

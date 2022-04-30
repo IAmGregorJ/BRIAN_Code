@@ -136,7 +136,7 @@ class TimeFunction:
         global is_started #pylint: disable=global-statement
         global pomodoro_stop #pylint: disable=global-statement
         pomodoro_stop = False
-        # CHECK THAT THIS MAY NOT RUN MORE THAN ONCE AT A TIME
+        # Because this time should not be run more than once
         if not is_started:
             is_started = True
             p = threading.Thread(target = TimeFunction.pomodoro_timer,

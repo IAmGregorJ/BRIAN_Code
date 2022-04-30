@@ -32,7 +32,6 @@ def listen():
         print("No sound received: " + str(e))
     return said.lower()
 
-
 def listen_caps():
     r = sr.Recognizer()
     with sr.Microphone() as source:
