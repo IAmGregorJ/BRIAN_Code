@@ -2,7 +2,7 @@
 import os
 import sys
 from gtts import gTTS
-import playsound
+from playsound import playsound
 from sty import fg
 from Functions import TimeFunctions as tf
 
@@ -15,7 +15,7 @@ class Output:
     def remove_voicefile():
         '''remove the file after output'''
         filename = "voice.mp3"
-        if filename:
+        if os.path.exists(filename):
             os.remove(filename)
 
     @staticmethod
@@ -41,7 +41,7 @@ class Output:
             lang = l
         filename = "voice.mp3"
         Output.create_output(text, lang)
-        playsound.playsound(filename)
+        playsound(filename)
         Output.remove_voicefile()
 
     @staticmethod
@@ -51,5 +51,5 @@ class Output:
         time = tf.TimeFunction.print_time()
         print(fg.li_red, time, "I'm sorry, but you don't seem to be connected "
                                 "to the internet right now.", fg.rs)
-        playsound.playsound(filename)
+        playsound(filename)
         sys.exit()

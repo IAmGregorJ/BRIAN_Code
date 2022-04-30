@@ -1,13 +1,11 @@
-from operator import truediv
 import sys
 import os, subprocess, platform
 from re import sub
 from pathlib import Path
 import threading
-from tkinter import E
 import speech_recognition as sr
 from gtts import gTTS
-import playsound
+from playsound import playsound
 from datetime import date, datetime
 
 home = str(Path.home())
@@ -17,7 +15,7 @@ def say(text):
     tts = gTTS(text=text, lang="en", tld="ca")
     filename = "voice.mp3"
     tts.save(filename)
-    playsound.playsound(filename)
+    playsound(filename)
     os.remove("voice.mp3")
 
 
@@ -189,7 +187,7 @@ def reminder():
 
 
 def play_alarm():
-    playsound.playsound("alarmClock.mp3")
+    playsound("alarmClock.mp3")
 
 
 def reminder_text(reminder):

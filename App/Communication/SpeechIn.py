@@ -1,4 +1,6 @@
 '''imports'''
+import os
+import time
 import string
 import speech_recognition as sr
 import requests
@@ -36,15 +38,18 @@ class SpeechIn:
     def listen():
         '''listen'''
         recon = sr.Recognizer()
+        filename = ("voice.mp3")
         with sr.Microphone() as source:
+            if os.path.exists(filename):
+                time.sleep(10)
             recon.adjust_for_ambient_noise(source, duration=0.5)
             audio = recon.listen(source)
             said = ""
             try:
                 said = recon.recognize_google(audio)
-                time = tf.TimeFunction.print_time()
+                tm = tf.TimeFunction.print_time()
                 print("")
-                print(fg.green, time, said, fg.rs)
+                print(fg.green, tm, said, fg.rs)
             except sr.UnknownValueError:
                 pass
             except sr.RequestError as ex:
@@ -67,8 +72,8 @@ class SpeechIn:
                             (" question mark", "?"),
                             (" new line", "\n")):
                     said = said.replace(*punct)
-                    time = tf.TimeFunction.print_time()
-                print(fg.blue, time, said, fg.rs) #should be removed once tested
+                    tm = tf.TimeFunction.print_time()
+                print(fg.blue, tm, said, fg.rs) #should be removed once tested
             except sr.UnknownValueError as ex:
                 print("No sound received: " + str(ex))
             except sr.RequestError as ex:

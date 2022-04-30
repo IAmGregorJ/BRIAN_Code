@@ -52,7 +52,7 @@ class User():
         out.Output.say("Can you please tell me your passphrase before we get started?")
         while True:
             __passinput = ind.SpeechIn.listen()
-            out.Output.say(f"You said {__passinput}, is that correct?")
+            out.Output.say(f"You said \"{__passinput}\", is that correct?")
             verify = ind.SpeechIn.listen()
             affirmative = ["yes", "yeah", "yep"]
             for phrase in affirmative:
@@ -88,7 +88,7 @@ class User():
         out.Output.say("Hey, a new friend! What's your name?")
         while True:
             name = ind.SpeechIn.dictate()
-            out.Output.say(f"You said your name is {name}, did I get that right?")
+            out.Output.say(f"You said your name is \"{name}\", did I get that right?")
             verify = ind.SpeechIn.listen()
             affirmative = ["yes", "yeah", "yep", "you did"]
             for phrase in affirmative:
@@ -106,7 +106,7 @@ class User():
             while len(__pphrase.split()) != 4:
                 out.Output.say("I'm sorry, we wanted four words, right? Try again.")
                 __pphrase = ind.SpeechIn.listen()
-            out.Output.say(f"You said {__pphrase}, is that right?")
+            out.Output.say(f"You said \"{__pphrase}\", is that right?")
             verify = ind.SpeechIn.listen()
             affirmative = ["yes", "yeah", "yep", "you did"]
             for phrase in affirmative:

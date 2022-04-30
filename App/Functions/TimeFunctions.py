@@ -2,7 +2,7 @@
 from datetime import date, datetime
 import time
 import threading
-import playsound
+from playsound import playsound
 import Communication.Output as out
 import Communication.SpeechIn as ind
 
@@ -52,6 +52,7 @@ class TimeFunction:
     @staticmethod
     def get_time_input():
         '''get the desired alarm time'''
+        # Only works with 24-hour format
         exmessage = "I'm sorry, that was some weird input."
         alarm_time = ind.SpeechIn.listen().replace(":","").replace("/","")
         try:
@@ -92,7 +93,7 @@ class TimeFunction:
             if alarm_hour == current_hour:
                 if alarm_minute == current_minute:
                     print(text)
-                    playsound.playsound("App/Ressources/alarmClock.mp3")
+                    playsound("App/Ressources/alarmClock.mp3")
                     break
 
     @staticmethod
@@ -106,14 +107,14 @@ class TimeFunction:
                 out.Output.say("Your pomodoro session starts now. "
                                 "Work for 25 minutes, then we'll take a short break.")
             else:
-                playsound.playsound(alarm)
+                playsound(alarm)
                 out.Output.say("\nTime to get back to work!")
             for _ in range(300):
                 time.sleep(5)
                 if pomodoro_stop:
                     return
             if count % 4 != 0:
-                playsound.playsound(alarm)
+                playsound(alarm)
                 out.Output.say("Now it's time for a 5 minute break! "
                                 f"\nYou have completed {count} pomodoros so far.")
                 for _ in range(60):
@@ -121,7 +122,7 @@ class TimeFunction:
                     if pomodoro_stop:
                         return
             else:
-                playsound.playsound(alarm)
+                playsound(alarm)
                 out.Output.say(f"\nThat was your {count}th pomodoro! "
                                 "Stretch your legs for 20 minutes this time.")
                 for _ in range(240):
@@ -158,7 +159,7 @@ class TimeFunction:
         '''kitchen timer'''
         alarm = "App/Ressources/Timer.mp3"
         time.sleep(minutes)
-        playsound.playsound(alarm)
+        playsound(alarm)
         out.Output.say("\nYour timer is finished.")
 
 
@@ -176,6 +177,6 @@ class TimeFunction:
             return
         out.Output.say(f"I have set your timer for {minutes} minutes")
         t = threading.Thread(target = TimeFunction.timer,
-                            args = (minutes),
+                            args = (int(minutes) * 60),
                             daemon = True)
         t.start()

@@ -23,19 +23,20 @@ while user.is_logged_in:
     WAKE = "ok brian"
 
     while True:
-        print(".", end = "", flush=True)
-        text = ind.SpeechIn.listen()
-        if text.count(WAKE) > 0:
-            try:
-                del text
-                out.Output.say("Yes?")
-            except AttributeError:
-                print("Attribute Error")
-            # now add the recognizer to listen/execute command
-            try:
-                command = ind.SpeechIn.listen()
-                ind.SpeechIn.interpret(user, command)
-            except Exception as ex: #pylint: disable=broad-except
-                print(f"Unknown Error: {ex}")
-                print(traceback.format_exc())
+        if __name__ == "__main__":
+            print(".", end = "", flush=True)
+            text = ind.SpeechIn.listen()
+            if text.count(WAKE) > 0:
+                try:
+                    del text
+                    out.Output.say("Yes?")
+                except AttributeError:
+                    print("Attribute Error")
+                # now add the recognizer to listen/execute command
+                try:
+                    command = ind.SpeechIn.listen()
+                    ind.SpeechIn.interpret(user, command)
+                except Exception as ex: #pylint: disable=broad-except
+                    print(f"Unknown Error: {ex}")
+                    print(traceback.format_exc())
                 
