@@ -5,6 +5,7 @@ import string
 import speech_recognition as sr
 import requests
 import Communication.Output as out
+from base_logger import logger
 from Functions import (
     Status as st,
     TimeFunctions as tf,
@@ -32,6 +33,7 @@ class SpeechIn:
         try:
             requests.get(url, timeout = timeout)
         except(requests.ConnectionError, requests.Timeout) as ex:
+            logger.error(repr(ex))
             print("There is no internet connection: " + str(ex))
             out.Output.no_connection()
 
@@ -52,11 +54,13 @@ class SpeechIn:
                 tm = tf.TimeFunction.print_time()
                 print("")
                 print(fg.green, tm, said, fg.rs)
-            except sr.UnknownValueError:
+            except sr.UnknownValueError as ex:
                 # non-speech
+                logger.error(repr(ex))
                 pass
             except sr.RequestError as ex:
                 # usually a connection error
+                logger.error(repr(ex))
                 print(f"The Google speech recognition API was unreachable; {format(ex)}")
             return said.lower()
 
@@ -81,8 +85,10 @@ class SpeechIn:
                     tm = tf.TimeFunction.print_time()
                 print(fg.blue, tm, said, fg.rs)
             except sr.UnknownValueError as ex:
+                logger.error(repr(ex))
                 print("No sound received: " + str(ex))
             except sr.RequestError as ex:
+                logger.error(repr(ex))
                 print(f"The Google speech recognition API was unreachable; {format(ex)}")
             return said
 
@@ -196,6 +202,7 @@ class SpeechIn:
                 lists.append(a[i])
 
         number = 0 # counter for the number of 'true'
+        recipient = ""
 
         for lst in (lists):
             for phrase in lst:
@@ -286,10 +293,17 @@ class SpeechIn:
                 w = wa.SearchWolfram()
                 w.wolfsearch()
 
+# Modified to get contact name
         for phrase in email_strings:
             if phrase in text:
+                c = ct.Contact()
+                contacts = c.get_all_names()
+                for n in contacts:
+                    name = n[0]
+                    if name in text:
+                        recipient = name
                 e = em.Email()
-                e.get_mail_input(user.mail)
+                e.get_mail_input(user.mail, recipient)
 
         for phrase in change_email_strings:
             if phrase in text:

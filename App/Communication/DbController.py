@@ -1,7 +1,9 @@
 '''imports'''
+from asyncio.log import logger
 import sqlite3
 import random
 import datetime
+from base_logger import logger
 from abc import ABC, abstractmethod
 
 # pylint: disable=consider-using-f-string
@@ -47,7 +49,8 @@ class TodoController(DbController):
         self.cursor.execute("""SELECT id, todo FROM {}""".format(table))
         try:
             data = self.cursor.fetchall()
-        except TypeError:
+        except TypeError as ex:
+            logger.error(repr(ex))
             return 0
         return data
 
@@ -82,7 +85,8 @@ class CommandLogController(DbController):
         self.cursor.execute("""SELECT command, time FROM {}""".format(table))
         try:
             data = self.cursor.fetchall()
-        except TypeError:
+        except TypeError as ex:
+            logger.error(repr(ex))
             return 0
         return data
     def add(self, table, comm):
@@ -132,7 +136,19 @@ class ContactsInfoController(DbController):
         self.cursor.execute("""SELECT name, email FROM {}""".format(table))
         try:
             data = self.cursor.fetchall()
-        except TypeError:
+        except TypeError as ex:
+            logger.error(repr(ex))
+            return 0
+        return data
+
+# Added to get the name
+    def get_all_names(self,table):
+        '''get only names from db'''
+        self.cursor.execute("""SELECT name FROM {}""".format(table))
+        try:
+            data = self.cursor.fetchall()
+        except TypeError as ex:
+            logger.error(repr(ex))
             return 0
         return data
 

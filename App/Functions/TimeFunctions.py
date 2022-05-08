@@ -5,6 +5,7 @@ import threading
 from playsound import playsound
 import Communication.Output as out
 import Communication.SpeechIn as ind
+from base_logger import logger
 
 pomodoro_stop = False #yes the use of globals sucks, but I couldn't find an alternative
 is_started = False
@@ -57,12 +58,14 @@ class TimeFunction:
         alarm_time = ind.SpeechIn.listen().replace(":","").replace("/","")
         try:
             int(alarm_time)
-        except ValueError:
+        except ValueError as ex:
+            logger.error(repr(ex))
             out.Output.say(exmessage)
             return
         try:
             len(str(alarm_time)) > 4
-        except ValueError:
+        except ValueError as ex:
+            logger.error(repr(ex))
             out.Output.say(exmessage)
             return
         alarm_hour = alarm_time[0:2]
@@ -73,12 +76,14 @@ class TimeFunction:
             alarm_minute = alarm_time[1:3]
         try:
             int(alarm_hour) < 25
-        except ValueError:
+        except ValueError as ex:
+            logger.error(repr(ex))
             out.Output.say(exmessage)
             return
         try:
             int(alarm_minute) < 60
-        except ValueError:
+        except ValueError as ex:
+            logger.error(repr(ex))
             out.Output.say(exmessage)
             return
         return alarm_hour, alarm_minute
@@ -172,7 +177,8 @@ class TimeFunction:
         minutes = ind.SpeechIn.listen()
         try:
             int(minutes)
-        except ValueError:
+        except ValueError as ex:
+            logger.error(repr(ex))
             out.Output.say(exmessage)
             return
         out.Output.say(f"I have set your timer for {minutes} minutes")

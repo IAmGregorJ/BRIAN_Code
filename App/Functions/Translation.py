@@ -2,6 +2,7 @@
 import Communication.Output as out
 import Communication.SpeechIn as ind
 from translate import Translator
+from base_logger import logger
 
 class Translate():
     '''Translate English to other languages'''
@@ -23,7 +24,8 @@ class Translate():
         lang = ind.SpeechIn.listen()
         try:
             val = self.languages[lang]
-        except KeyError:
+        except KeyError as ex:
+            logger.error(repr(ex))
             out.Output.say("I'm sorry, that wasn't one of the choices.")
         result = self.get_target(val, source)
         out.Output.say(result, val)

@@ -6,6 +6,7 @@ from configparser import ConfigParser
 import Communication.Output as out
 import Communication.SpeechIn as ind
 from Functions import Contacts
+from base_logger import logger
 
 # pylint: disable=consider-using-f-string
 class Email():
@@ -24,18 +25,24 @@ class Email():
         self.subject = ""
         self.body = ""
 
-    def get_mail_input(self, usermail):
+    def get_mail_input(self, usermail, recipient):
         '''get the information about the mail to be sent from the user'''
         sent_from = usermail
-        out.Output.say("Are you writing to someone who is already in your contacts list?")
-        answer = ind.SpeechIn.listen()
-        if "no" in answer:
-            out.Output.say("Let's add a new contact then.")
-            recipient = Contacts.Contact()
-            send_to = recipient.add_contact()
+
+        #Added if username was received
+        if recipient == "":
+            out.Output.say("Are you writing to someone who is already in your contacts list?")
+            answer = ind.SpeechIn.listen()
+            if "no" in answer:
+                out.Output.say("Let's add a new contact then.")
+                recipient = Contacts.Contact()
+                send_to = recipient.add_contact()
+            else:
+                recipient = Contacts.Contact()
+                send_to = recipient.get_contact()
         else:
-            recipient = Contacts.Contact()
-            send_to = recipient.get_contact()
+            c = Contacts.Contact()
+            send_to = c.get_contact_with_name(recipient)
         to = send_to
         out.Output.say("What is the subject of this mail?")
         email_subject = ind.SpeechIn.dictate()
@@ -61,9 +68,11 @@ class Email():
             session.sendmail(sent_from, receiver, text)
             session.quit()
             out.Output.say("Your email has been sent.")
-        except smtplib.SMTPAuthenticationError:
+        except smtplib.SMTPAuthenticationError as ex:
+            logger.error(repr(ex))
             out.Output.say("There is something wrong with your smtp username or password")
         except Exception as ex: #pylint: disable=broad-except
+            logger.error(repr(ex))
             out.Output.say("An error occured while trying to send your mail.")
             print(ex)
         

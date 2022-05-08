@@ -25,6 +25,14 @@ class Contact():
         self.s.close()
         return contacts
 
+    # Added to get the contact names
+    def get_all_names(self):
+        '''get all the contact names'''
+        table = "contacts"
+        contacts = self.s.get_all_names(table)
+        self.s.close()
+        return contacts
+
     def show_all_contacts(self):
         '''print out the contact list to the console'''
         contacts = self.get_all_contacts()
@@ -47,6 +55,14 @@ class Contact():
             if self.email is None or self.email =="":
                 out.Output.say("I'm sorry, there is no contact by that name."
                                 "Try again.")
+        self.s.close()
+        self.email = rsa.decrypt(self.email, self.privateKey).decode()
+        return self.email
+
+    def get_contact_with_name(self, name):
+        '''get the contact email when we know the name'''
+        table = "contacts"
+        self.email = self.s.get(table, name)
         self.s.close()
         self.email = rsa.decrypt(self.email, self.privateKey).decode()
         return self.email

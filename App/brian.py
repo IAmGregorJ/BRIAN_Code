@@ -6,6 +6,7 @@ import Communication.SpeechIn as ind
 import Communication.Output as out
 import Functions.User as u
 from sty import fg, bg
+from base_logger import logger
 
 user = u.User()
 if user.check_user() == 0:
@@ -31,9 +32,10 @@ while user.is_logged_in:
                 try:
                     del text
                     out.Output.say("Yes?")
-                except AttributeError:
+                except AttributeError as ex:
                     # AttributeError was thrown a couple times, never found out why
                     print("Attribute Error")
+                    logger.error(repr(ex))
                 # now add the recognizer to listen/execute command
                 try:
                     command = ind.SpeechIn.listen()
@@ -42,4 +44,5 @@ while user.is_logged_in:
                     # was used for debugging, doesn't happen anymore since "don't understand"
                     print(f"Unknown Error: {ex}")
                     print(traceback.format_exc())
+                    logger.error(repr(ex))
                 

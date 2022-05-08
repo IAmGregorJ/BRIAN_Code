@@ -2,6 +2,7 @@
 from Communication.DbController import TodoController as db
 import Communication.Output as out
 import Communication.SpeechIn as ind
+from base_logger import logger
 
 class Todo:
     '''Todo object'''
@@ -38,7 +39,8 @@ class Todo:
         number = ind.SpeechIn.listen()
         try:
             int(number)
-        except ValueError:
+        except ValueError as ex:
+            logger.error(repr(ex))
             out.Output.say("You had one chance. Boom.")
             return
         self.s.delete(self.table, int(number))
