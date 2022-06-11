@@ -19,7 +19,8 @@ from Functions import (
     Email as em,
     Contacts as ct,
     Help as hl,
-    User as u
+    User as u,
+    Weather as we
 )
 from sty import fg
 
@@ -57,7 +58,6 @@ class SpeechIn:
             except sr.UnknownValueError as ex:
                 # non-speech
                 logger.error(repr(ex))
-                pass
             except sr.RequestError as ex:
                 # usually a connection error
                 logger.error(repr(ex))
@@ -80,10 +80,11 @@ class SpeechIn:
                             (" period", "."),
                             (" exclamation point", "!"),
                             (" question mark", "?"),
-                            (" new line", "\n")):
+                            (" new line", "\n"),
+                            (" winking face", " \N{winking face}")):
                     said = said.replace(*punct)
                     tm = tf.TimeFunction.print_time()
-                print(fg.blue, tm, said, fg.rs)
+                print(fg.li_blue, tm, said, fg.rs)
             except sr.UnknownValueError as ex:
                 logger.error(repr(ex))
                 print("No sound received: " + str(ex))
@@ -149,6 +150,8 @@ class SpeechIn:
                             "add to the todo"]
         delete_todo_strings = ["delete an item",
                             "delete from the todo",
+                            "delete from the to-do",
+                            "delete from my to-do",
                             "delete from my todo",
                             "delete something from"]
         timer_strings = ["start a timer",
@@ -166,7 +169,8 @@ class SpeechIn:
                             "query wikipedia"]
         translate_strings = ["to translate",
                             "a translation",
-                            "google translate"]
+                            "google translate",
+                            "translate something"]
         wolfram_strings = ["a question",
                             "wolfram",
                             "ask something"]
@@ -194,6 +198,8 @@ class SpeechIn:
                             "need help",
                             "what can I say",
                             "what can you do"]
+        weather_strings = ["weather",
+                            "temperature"]
 
         lists = [] # all lists following naming convention read into list of lists
         a = vars().copy()
@@ -334,3 +340,8 @@ class SpeechIn:
             if phrase in text:
                 h = hl.Help()
                 h.give_help()
+
+        for phrase in weather_strings:
+            if phrase in text:
+                w = we.Weather()
+                w.give_weather()

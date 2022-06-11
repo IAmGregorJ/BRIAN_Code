@@ -13,7 +13,8 @@ class SystemFunction:
     @staticmethod
     def exitapp(name):
         '''exit the app'''
-        if datetime.now() == datetime(2022,6,14):
+        d_day = datetime(2022,6,14)
+        if datetime.today().date() == d_day.date():
             message = f"Super, {name}. Good luck, I hope you get a 12!"
         else:
             message = f"I hope do see you again soon {name}"

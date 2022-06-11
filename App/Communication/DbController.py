@@ -1,10 +1,10 @@
 '''imports'''
-from asyncio.log import logger
-import sqlite3
-import random
 import datetime
-from base_logger import logger
+import random
+import sqlite3
 from abc import ABC, abstractmethod
+from base_logger import logger
+
 
 # pylint: disable=consider-using-f-string
 class DbController(ABC):
@@ -58,6 +58,8 @@ class TodoController(DbController):
         '''add todo to db'''
         # current date formatted: int(current_date.strftime("%Y%m%d%H%M%S")
         added = datetime.datetime.now().strftime("%Y%m%d%H%M%S")
+        self.cursor.execute("UPDATE `sqlite_sequence` SET `seq` = 0 WHERE `name` = '{}';"
+                            .format(table))
         self.cursor.execute("INSERT INTO {} (todo, added) VALUES (?, ?)".format(table),
                            (text, added))
         self.db.commit()

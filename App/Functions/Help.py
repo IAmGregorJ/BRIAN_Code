@@ -22,6 +22,7 @@ class Help():
                             "Delete people from your contacts list",
                             "Modify a contact",
                             "See all your contacts"]
+        self.weather_string = ["Find out what the temperature is outside."]
         self.status_string = ["Ask me how I'm feeling"]
 
     def give_help(self):
@@ -45,5 +46,7 @@ class Help():
         for i in self.translate_string:
             out.Output.say(f"\t{i}")
         for i in self.shutdown_string:
+            out.Output.say(f"\t{i}")
+        for i in self.weather_string:
             out.Output.say(f"\t{i}")
         out.Output.say("And finally, you can also just ask me how I'm feeling.")

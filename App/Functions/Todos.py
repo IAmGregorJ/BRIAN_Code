@@ -36,6 +36,7 @@ class Todo:
 
     def delete_todo(self):
         '''delete todo from list'''
+        out.Output.say("What is the number of the item you'd like removed?")
         number = ind.SpeechIn.listen()
         try:
             int(number)
@@ -44,14 +45,16 @@ class Todo:
             out.Output.say("You had one chance. Boom.")
             return
         self.s.delete(self.table, int(number))
+        out.Output.say("Deleted. Here is your updated to-do list:")
         self.show_todo_list()
 
     def input_todo_text(self):
         '''get input related to the todo item'''
         out.Output.say("What would you like to add to the list?")
         todo_text = ind.SpeechIn.dictate()
+        out.Output.say("Added. Here is your updated to-do list:")
         return todo_text
-        
+
     def input_todo_number(self):
         '''get input related to the line number to delete'''
         out.Output.say("What is the number of the item you want removed?")

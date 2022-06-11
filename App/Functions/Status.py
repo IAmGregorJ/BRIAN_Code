@@ -19,11 +19,11 @@ class Status():
         '''give an output of the current status'''
 
         out.Output.say(f"I'm doing just fine thanks."
-                    f"It has been {self.sec_to_hours(self.uptime)} since boot."
+                    f"It has been {self.sec_to_hours(self.uptime)} since boot.\n"
                     f"My cpu load is at {self.cpu} percent"
-                    f" and my temperature is {self.temp} degrees. "
-                    f"{self.free} percent of the main drive is free. "
-                    f" RAM usage is at {self.ram} gigabytes. "
+                    f" and my temperature is {self.temp} degrees.\n"
+                    f"{self.free} percent of the main drive is free.\n"
+                    f" RAM usage is at {self.ram} gigabytes.\n"
                     f"There is {self.sec_to_hours(self.battery)} battery time left"
                     " and you're here with me. I'm happy!")
     def get_cpu_usage_pct(self):
